@@ -33,7 +33,11 @@
 
 }
 
-@media screen and (max-width:455px) {
+@media screen and (max-width:450px) {
+    .social-icons-arrow {
+        display: none;
+    }
+
     footer {
         height: 300px;
     }
@@ -41,4 +45,10 @@
     .logo-rodape {
         padding: 30px;
     } 
+}
+
+@media screen and (max-width:300px) {
+    .social-icons img {
+        width: 30px;
+    }
 }

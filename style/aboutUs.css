@@ -21,6 +21,7 @@ body {
     align-items: center;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .logo {
@@ -71,6 +72,121 @@ body {
     background: #009c86;
 }
 
+.header {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 81.8%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 200px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    /* border:1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #085a50;
+    padding: 0;
+    margin: 0;
+}
+
+.headline h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #085a50;
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.separate-title {
+    letter-spacing: 15px;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+    font-size: 18px;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+    border-radius: 9% 91% 19% 50% / 9% 97% 3% 50%;
+    background-image: linear-gradient(130deg, #2d4137, #085a50, #009c86);
+}
+
+.img-headline img {
+    animation: indi 30s infinite alternate;
+    z-index: -1;
+}
+
+@keyframes indi {
+    0% {
+        transform: translate(130px, 130px);
+    }
+
+    33% {
+        transform: translate(-110px, -120px);
+    }
+
+    66% {
+        transform: translate(-110px, -115px);
+    }
+
+    100% {
+        transform: translate(-110px, -110);
+    }
+}
+
+.mencion-list ul {
+    padding: 20px;
+}
+
+.mencion-list a, li {
+    text-decoration: none;
+    font-size: 18px;
+    color: #085a50;
+    letter-spacing: 2px;
+    list-style-type: none;
+    padding-bottom: 10px;
+    transition: all ease 0.1s;
+
+}
+
+.mencion-list img {
+    width: 15px;
+}
+
+.mencion-list a:hover {
+    color: black;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.social-icons-img{
+    opacity: 0.7;
+    transition: all ease 0.4s;
+}
+
+.social-icons-img:hover{
+    opacity: 1;
+}
+
 footer {
     margin-top: 10px;
     height: 350px;
@@ -93,11 +209,16 @@ footer {
     color: white;
 }
 
+.logo-rodape a {
+    color: white;
+    font-size: 30px;
+}
+
 b {
     color: white;
 }
 
-.github {
+/* .github {
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -111,4 +232,4 @@ b {
 
 .githubimg:hover {
     opacity: 1;
-}
+} */

@@ -178,6 +178,12 @@ footer {
     color: white;
 }
 
+.logo-rodape a {
+    color: white;
+    font-size: 30px;
+}
+
+
 b {
     color: white;
 }
