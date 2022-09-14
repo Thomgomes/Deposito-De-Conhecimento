@@ -6,6 +6,8 @@
     <a href="#tecnologias">Tecnologias</a>
     --
     <a href="#autor">Autor</a>
+    --
+    <a href="#atualizações">Atualizações</a>
 </p>
 
 <br>
@@ -30,3 +32,12 @@ Prentendo adicionar novas funcionalidades e atribuir novos conteudos com o passa
 <p>Meu nome é Thomás D'Angelo de Almeida Gomes Tenho 19 anos.<br>
 Estou estudando para ser um "Front-end Developer", sou formado em Técnico em Analíse e Desenvolvimento de Sistemas no ETE Gínasio Pernambucano - Recife - PE.
 </p>
+
+# Atualizações
+
+<h4>14/09/2022</h4>
+<p>Index atualizado com o conteudo inicial.<br>
+Index estilizado e breve animação na imagem e no texto, responsividade ativa.<br>
+correções em alguns arquivos .css<br>
+</p>
+

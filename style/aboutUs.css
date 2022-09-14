@@ -112,7 +112,7 @@ body {
 }
 
 .headline p {
-    color: gray;
+    color: rgb(74, 92, 68);
     text-align: left;
     font-size: 18px;
 }
@@ -146,29 +146,6 @@ body {
     100% {
         transform: translate(-110px, -110);
     }
-}
-
-.mencion-list ul {
-    padding: 20px;
-}
-
-.mencion-list a, li {
-    text-decoration: none;
-    font-size: 18px;
-    color: #085a50;
-    letter-spacing: 2px;
-    list-style-type: none;
-    padding-bottom: 10px;
-    transition: all ease 0.1s;
-
-}
-
-.mencion-list img {
-    width: 15px;
-}
-
-.mencion-list a:hover {
-    color: black;
 }
 
 .social-icons{
