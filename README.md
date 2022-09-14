@@ -37,7 +37,10 @@ Estou estudando para ser um "Front-end Developer", sou formado em Técnico em An
 
 <h4>14/09/2022</h4>
 <p>Index atualizado com o conteudo inicial.<br>
-Index estilizado e breve animação na imagem e no texto, responsividade ativa.<br>
-correções em alguns arquivos .css<br>
+Index estilizado e responsividade ativa.<br>
+Correções em alguns arquivos .css<br>
+Footer adicionado ao index.<br>
+Licença da animação pelo site animista.net.<br>
+Breve animação na imagem e no texto do Index, Menções e no Sobre nós.
 </p>
 

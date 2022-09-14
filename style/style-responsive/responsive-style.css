@@ -30,7 +30,9 @@
         display: none;
     }
 
-
+    .text-in-right {
+        animation: none;
+    }
 }
 
 @media screen and (max-width:455px) {
@@ -40,5 +42,5 @@
 
     .logo-rodape {
         padding: 30px;
-    } 
+    }
 }

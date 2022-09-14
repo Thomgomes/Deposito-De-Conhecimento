@@ -8,6 +8,7 @@ body {
     margin: 0;
     background: white;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -84,6 +85,55 @@ body {
     padding-top: 200px;
 }
 
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+    border-radius: 9% 91% 19% 50% / 9% 97% 3% 50%;
+    background-image: linear-gradient(130deg, #2d4137, #085a50, #009c86);
+}
+
+.img-headline img {
+    animation: pc-animation 30s infinite alternate;
+    z-index: -1;
+}
+
+@keyframes pc-animation {
+    0% {
+        transform: translate(130px, 130px);
+    }
+
+    33% {
+        transform: translate(-110px, -120px);
+    }
+
+    66% {
+        transform: translate(-110px, -115px);
+    }
+
+    100% {
+        transform: translate(-110px, -110);
+    }
+}
+
+.puff-in-center {
+    animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes puff-in-center {
+    0% {
+        transform: scale(2);
+        filter: blur(4px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
 .headline {
     margin-left: 10%;
     flex: 40%;
@@ -117,52 +167,41 @@ body {
     font-size: 18px;
 }
 
-.img-headline {
-    margin-right: 10%;
-    flex: 40%;
-    text-align: center;
-    border-radius: 9% 91% 19% 50% / 9% 97% 3% 50%;
-    background-image: linear-gradient(130deg, #2d4137, #085a50, #009c86);
-}
-
-.img-headline img {
-    animation: indi 30s infinite alternate;
-    z-index: -1;
-}
-
-@keyframes indi {
-    0% {
-        transform: translate(130px, 130px);
-    }
-
-    33% {
-        transform: translate(-110px, -120px);
-    }
-
-    66% {
-        transform: translate(-110px, -115px);
-    }
-
-    100% {
-        transform: translate(-110px, -110);
-    }
-}
-
-.social-icons{
+.social-icons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.social-icons-img{
+.social-icons-img {
     opacity: 0.7;
     transition: all ease 0.4s;
 }
 
-.social-icons-img:hover{
+.social-icons-img:hover {
     opacity: 1;
 }
+
+.text-in-left {
+	animation: text-in-left 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+ @keyframes text-in-left {
+    0% {
+      transform: scale(2);
+      transform-origin: 0% 50%;
+      filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: 0% 50%;
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
 
 footer {
     margin-top: 10px;

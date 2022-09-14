@@ -30,6 +30,10 @@
         display: none;
     }
 
+    .text-in-left {
+        animation: none;
+    }
+
 
 }
 
