@@ -33,6 +33,18 @@
     .text-in-right {
         animation: none;
     }
+
+    section {
+        text-align: center;
+    }
+
+    .servicos {
+        justify-content: space-around;
+    }
+
+    .card-loading .card-text-loading p {
+        display: none;
+    }
 }
 
 @media screen and (max-width:455px) {

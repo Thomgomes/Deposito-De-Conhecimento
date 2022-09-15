@@ -43,4 +43,9 @@ Footer adicionado ao index.<br>
 Licença da animação pelo site animista.net.<br>
 Breve animação na imagem e no texto do Index, Menções e no Sobre nós.
 </p>
-
+<hr>
+<h4>15/09/2022</h4>
+<p>Cards criados na página Index.<br>
+Responsividade ativa nos cards.
+Ajuste no tamanho dos (h2.separate-title) de cada página.
+</p>
