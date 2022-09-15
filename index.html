@@ -24,30 +24,46 @@
         <div class="logo">
             <h1>Depósito De Conhecimento</h1>
         </div>
+        <div class="hamburguer">
+            <div>
+                <div class="lines" id="line1"></div>
+                <div class="lines" id="line2"></div>
+                <div class="lines" id="line3"></div>
+                <span>fechar</span>
+            </div>
+        </div>
         <div class="menu">
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
             <a href="./aboutUs.html">Sobre Nós</a>
             <a href="./mencoes.html">Menções</a>
             <a id="botao" href="#">Fale Comigo</a>
         </div>
+        <div class="sidebar">
+            <div class="menu-smartphone">
+                <ul style>
+                    <li></li>
+                    <li class="menu-smartphone-item"><a href="./aboutUs.html" class="menu-smartphone-link">Sobre nós</a></li>
+                    <li class="menu-smartphone-item"><a href="./mencoes.html" class="menu-smartphone-link">Menções</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <!-- <h2>Apenas Conteudo clicando no <a href="./mencoes.html">"Menções"</a> e no <a href="./aboutUs.html">Sobre Nós</a> por enquanto!</h2> -->
-    <header class="header">
+    <header id="home" class="header">
         <div class="headline text-in-right">
             <h2 class="separate-title">Seja Bem Vindo</h2>
             <h3 class="big-title">Ao Depósito De Conhecimento</h3>
             <p>Aqui você vai encontrar um pouco do que eu sei fazer, as tecnologias que eu possuo conhecimento e aquelas
                 que eu ainda vou possuir, quanto ao site ele será bem auto explicativo e direto, para saber um pouco de
-                tudo que eu sei fazer, você pode explorar todas as demais áreas do site. só cuidado para não aprender demais.
+                tudo que eu sei fazer, você pode explorar todas as demais áreas do site. só cuidado para não aprender
+                demais.
             </p>
-            <!-- <a href="./aboutUs.html">Sobre nós</a> -->
         </div>
         <div class="img-headline puff-in-bl">
             <img style="max-width: 90%;" src="./images/img/developer.png">
         </div>
     </header>
-    <!-- <hr> -->
+
     <section class="section">
         <h2>Conhecimentos</h2>
         <div class="servicos">
@@ -96,6 +112,7 @@
             </div>
         </div>
     </section>
+
     <footer>
         <div class="logo-rodape">
             <h2 class="agencia">Depósito de Conhecimento</h2>
@@ -106,6 +123,8 @@
     </footer>
     <a class="github" target="_blank" href="https://github.com/Thomgomes"><img class="githubimg"
             src="./images/img/github.png"></a>
+            
+    <script src="./js/menu-hamburguer.js"></script>
 </body>
 
 </html>

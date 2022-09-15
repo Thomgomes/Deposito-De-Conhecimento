@@ -46,6 +46,8 @@ Breve animação na imagem e no texto do Index, Menções e no Sobre nós.
 <hr>
 <h4>15/09/2022</h4>
 <p>Cards criados na página Index.<br>
-Responsividade ativa nos cards.
-Ajuste no tamanho dos (h2.separate-title) de cada página.
+Responsividade ativa nos cards.<br>
+Ajuste no tamanho dos (h2.separate-title) de cada página.<br>
+Adicionado menu-hambuguer.js.<br>
+Adicionado menu lateral para tela de smarthphones, criado com css e js.
 </p>

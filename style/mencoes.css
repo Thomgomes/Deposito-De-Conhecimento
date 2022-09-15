@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -73,6 +75,14 @@ body {
     background: #009c86;
 }
 
+.hamburguer {
+    display: none;
+}
+
+.sidebar {
+    display: none;
+}
+
 .header {
     margin-left: 10%;
     margin-right: 10%;
@@ -119,6 +129,7 @@ body {
 .headline h2 {
     font-weight: 900;
     font-size: 25px;
+    font-family: 'Lobster', cursive;
     color: #085a50;
     padding: 0;
     margin: 0;
@@ -140,10 +151,10 @@ body {
 
 .mencion-list a, li {
     text-decoration: none;
+    list-style-type: none;
     font-size: 18px;
     color: #085a50;
     letter-spacing: 2px;
-    list-style-type: none;
     padding-bottom: 10px;
     transition: all ease 0.1s;
 

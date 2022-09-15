@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -74,6 +76,14 @@ body {
     background: #009c86;
 }
 
+.hamburguer {
+    display: none;
+}
+
+.sidebar {
+    display: none;
+}
+
 .header {
     margin-left: 10%;
     margin-right: 10%;
@@ -96,6 +106,7 @@ body {
 .headline h2 {
     font-weight: 900;
     font-size: 25px;
+    font-family: 'Lobster', cursive;
     color: #085a50;
     padding: 0;
     margin: 0;
@@ -108,6 +119,7 @@ body {
 .headline h3 {
     font-weight: 900;
     font-size: 30px;
+    font-family: 'Lobster', cursive;
     color: #085a50;
     padding: 0;
     padding-top: 30px;
