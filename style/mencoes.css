@@ -30,7 +30,6 @@ body {
 .logo {
     flex: 20%;
     margin-left: 10%;
-    /* border:1px solid red;  */
     text-align: left;
 }
 
@@ -38,6 +37,10 @@ body {
     font-family: 'Lobster', cursive;
     color: #085a50;
     font-size: 34px;
+}
+
+.logo a{
+    color: #085a50;
 }
 
 .menu {
@@ -142,7 +145,8 @@ body {
 .headline p {
     color: rgb(74, 92, 68);
     text-align: left;
-    font-size: 18px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 20px;
 }
 
 .mencion-list ul {

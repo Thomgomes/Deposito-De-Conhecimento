@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+
 
 * {
     box-sizing: border-box;
@@ -31,14 +34,16 @@ body {
 .logo {
     flex: 20%;
     margin-left: 10%;
-    /* border:1px solid red;  */
     text-align: left;
 }
 
 .logo h1 {
     font-family: 'Lobster', cursive;
-    color: #085a50;
     font-size: 34px;
+}
+
+.logo a{
+    color: #085a50;
 }
 
 .menu {
@@ -129,7 +134,8 @@ body {
 .headline p {
     color: rgb(74, 92, 68);
     text-align: left;
-    font-size: 18px;
+    font-family: 'Aref Ruqaa Ink', serif;;
+    font-size: 20px;
 }
 
 .text-in-right {
@@ -215,8 +221,10 @@ section h2 {
 }
 
 .card {
+    color: #000000;
     width: 28%;
     min-width: 250px;
+    min-height: 297.44px;
     padding: 20px;
     margin: 1%;
     border: 1px solid #a1fcee;
@@ -229,6 +237,23 @@ section h2 {
 .card img {
     padding-top: 20px;
     width: 58px;
+}
+
+.card h3{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card-icon {
+    padding-top: 20px;
+    font-size: 68px;
+}
+
+.mdi-git{
+    color: #f1502f;
 }
 
 .card:hover {
@@ -338,6 +363,24 @@ section h2 {
 }
 .card-loading:hover .texto-oculto-loading {
     display: block;
+}
+
+.content-section{
+        border:1px solid black;
+        margin: 0;
+        padding: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+}
+
+.waiting {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 footer {

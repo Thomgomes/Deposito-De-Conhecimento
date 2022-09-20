@@ -40,7 +40,7 @@ Estou estudando para ser um "Front-end Developer", sou formado em Técnico em An
 Index estilizado e responsividade ativa.<br>
 Correções em alguns arquivos .css<br>
 Footer adicionado ao index.<br>
-Licença da animação pelo site animista.net.<br>
+Licença da animação pelo site animista.net .<br>
 Breve animação na imagem e no texto do Index, Menções e no Sobre nós.
 </p>
 <hr>
@@ -48,6 +48,16 @@ Breve animação na imagem e no texto do Index, Menções e no Sobre nós.
 <p>Cards criados na página Index.<br>
 Responsividade ativa nos cards.<br>
 Ajuste no tamanho dos (h2.separate-title) de cada página.<br>
-Adicionado menu-hambuguer.js.<br>
-Adicionado menu lateral para tela de smarthphones, criado com css e js.
+Adicionado menu-hambuguer.js .<br>
+Adicionado menu lateral para tela de smarthphones, criado com css e js .
+</p>
+<h4>20/09/2022</h4>
+<p>Icones adiconados para Git e GitHub dos cards.<br>
+Redimencionamento dos Cards em geral para não ficar desproporcional.<br>
+Menção ao : <a href="https://materialdesignicons.com" target="_blank">materialdesignicons.com</a> .<br>
+app.js alterado para index.js .<br>
+Redirecionamento ao clicar na Logo/Home para ir ao index.html .<br>
+Redirecionamento ao clicar num Card para ir até o content-section .<br>
+Suavisação ao redirecionar na mesma tela.<br>
+texto<br>
 </p>
