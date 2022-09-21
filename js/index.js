@@ -27,15 +27,82 @@ function SoftScroll(event) {
 
 internalLink.addEventListener('click', SoftScroll)
 
+function addChecked(card) {
+    switch (card) {
+        case cardJs:
+            if (cardJs.classList.contains("checked")) {
+                cardHtml.classList.remove("checked")
+                cardCss.classList.remove("checked")
+                cardGit.classList.remove("checked")
+                cardGitHub.classList.remove("checked")
+            } else {
+                cardJs.classList.add("checked")
+            }
+            break
+        case cardHtml:
+            if (cardHtml.classList.contains("checked")) {
+                cardJs.classList.remove("checked")
+                cardCss.classList.remove("checked")
+                cardGit.classList.remove("checked")
+                cardGitHub.classList.remove("checked")
+            } else {
+                cardHtml.classList.add("checked")
+            }
+            break
+        case cardCss:
+            if (cardCss.classList.contains("checked")) {
+                cardJs.classList.remove("checked")
+                cardHtml.classList.remove("checked")
+                cardGit.classList.remove("checked")
+                cardGitHub.classList.remove("checked")
+            } else {
+                cardCss.classList.add("checked")
+            }
+            break
+        case cardGit:
+            if (cardGit.classList.contains("checked")) {
+                cardJs.classList.remove("checked")
+                cardHtml.classList.remove("checked")
+                cardCss.classList.remove("checked")
+                cardGitHub.classList.remove("checked")
+            } else {
+                cardGit.classList.add("checked")
+            }
+            break
+        case cardGitHub:
+            if (cardGitHub.classList.contains("checked")) {
+                cardJs.classList.remove("checked")
+                cardHtml.classList.remove("checked")
+                cardGit.classList.remove("checked")
+                cardCss.classList.remove("checked")
+            } else {
+                cardGitHub.classList.add("checked")
+            }
+            break
+        default:
+            console.error("Invalid Option!")
+    }
+}
+
 //Funções para abrir o content section
 cardJs.addEventListener("click", function () {
     SoftScroll(event)
+
+    //Função para adicionar o checked no elemento marcado
+    cardJs.classList.add("checked")
+    addChecked(cardJs)
+
     sectionContent.innerHTML = `<h2>JavaScript</h2>`
 })
 cardHtml.addEventListener("click", function () {
     SoftScroll(event)
 
-    sectionContent.innerHTML = `
+    //Função para adicionar o checked no elemento marcado
+    cardHtml.classList.add("checked")
+    addChecked(cardHtml)
+
+    sectionContent.innerHTML =
+        `
     <div class="title-subtitle">
     <h2>Html</h2>
     <h3 translate="no">HyperText Markup Language</h3>
@@ -104,13 +171,28 @@ cardHtml.addEventListener("click", function () {
 })
 cardCss.addEventListener("click", function () {
     SoftScroll(event)
+
+    //Função para adicionar o checked no elemento marcado
+    cardCss.classList.add("checked")
+    addChecked(cardCss)
+
     sectionContent.innerHTML = `<h2>Css</h2>`
 })
 cardGit.addEventListener("click", function () {
     SoftScroll(event)
+
+    //Função para adicionar o checked no elemento marcado
+    cardGit.classList.add("checked")
+    addChecked(cardGit)
+
     sectionContent.innerHTML = `<h2>Git</h2>`
 })
 cardGitHub.addEventListener("click", function () {
     SoftScroll(event)
+
+    //Função para adicionar o checked no elemento marcado
+    cardGitHub.classList.add("checked")
+    addChecked(cardGitHub)
+
     sectionContent.innerHTML = `<h2>GitHub</h2>`
 })
