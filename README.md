@@ -57,7 +57,11 @@ Redimencionamento dos Cards em geral para não ficar desproporcional.<br>
 Menção ao : <a href="https://materialdesignicons.com" target="_blank">materialdesignicons.com</a> .<br>
 app.js alterado para index.js .<br>
 Redirecionamento ao clicar na Logo/Home para ir ao index.html .<br>
-Redirecionamento ao clicar num Card para ir até o content-section .<br>
-Suavisação ao redirecionar na mesma tela.<br>
-texto<br>
+Redirecionamento ao clicar num Card para ir até o section-content .<br>
+Suavisação ao redirecionar na mesma tela.
+</p>
+<h4>21/09/2022</h4>
+<p>Documentação ao clicar no card de HTML(incompleto).<br>
+Reajuste no tamanho do "nav".<br>
+Reajuste no menu hamburguer para dispositivos pequenos.
 </p>

@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     height: auto;
-    max-height: 150px;
+    max-height: 130px;
     background: #ffffff;
     border-bottom: 5px solid #711983;
     justify-content: center;
@@ -35,8 +35,10 @@ body {
 
 .logo h1 {
     font-family: 'Lobster', cursive;
-    color: #085a50;
     font-size: 34px;
+    margin: 0;
+    margin-top: 18px;
+    margin-bottom: 5px;
 }
 
 .logo a{
