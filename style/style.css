@@ -46,7 +46,7 @@ body {
     margin-bottom: 5px;
 }
 
-.logo a{
+.logo a {
     color: #085a50;
 }
 
@@ -243,11 +243,11 @@ section h2 {
     width: 58px;
 }
 
-.card h3{
+.card h3 {
     font-family: 'Work Sans', sans-serif;
 }
 
-.card p{
+.card p {
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -256,7 +256,7 @@ section h2 {
     font-size: 68px;
 }
 
-.mdi-git{
+.mdi-git {
     color: #f1502f;
 }
 
@@ -274,11 +274,12 @@ section h2 {
 .texto-oculto {
     display: none;
 }
+
 .card:hover .texto-oculto {
     display: block;
 }
 
-.card.checked{
+.card.checked {
     background: #85eede;
     color: #000000;
     padding: 30px;
@@ -312,16 +313,18 @@ section h2 {
     animation: ring-animation 2s infinite linear;
 }
 
-@keyframes ring-animation{
-    0%{
+@keyframes ring-animation {
+    0% {
         transform: rotate(0deg);
         box-shadow: 1px 5px 2px #e65c00
     }
-    50%{
+
+    50% {
         transform: rotate(180deg);
         box-shadow: 1px 5px 2px #18b201
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
         box-shadow: 1px 5px 2px #0456c8
     }
@@ -335,7 +338,7 @@ section h2 {
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    box-shadow: 0 0 5px rgb(113, 25, 131,.6);
+    box-shadow: 0 0 5px rgb(113, 25, 131, .6);
 }
 
 .loading span {
@@ -348,18 +351,18 @@ section h2 {
 }
 
 @keyframes ring-text {
-    50%{
+    50% {
         color: transparent;
     }
 }
 
-.card-text-loading{
+.card-text-loading {
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.texto-oculto-loading{
+.texto-oculto-loading {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -372,54 +375,117 @@ section h2 {
 .texto-oculto-loading {
     display: none;
 }
+
 .card-loading:hover .texto-oculto-loading {
     display: block;
 }
 
-.section-content{
-        border:1px solid black;
-        margin: 0;
-        padding: 0;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-family: 'Aref Ruqaa Ink', serif;
-        color: rgb(74, 92, 68);
+.section-content {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Aref Ruqaa Ink', serif;
+    color: rgb(74, 92, 68);
 }
 
-.title-subtitle{
+.title-subtitle {
     text-align: center;
 }
 
-.title-subtitle h2{
+.title-subtitle h2 {
     font-size: 45px;
     font-family: 'Lobster', cursive;
 }
 
-.title-subtitle h3{
+.title-subtitle h3 {
     font-size: 24px;
     color: #085a50;
     font-family: 'Work Sans', sans-serif;
 }
 
-.basic-information{
-    border:1px solid rgb(255, 166, 166);
+.basic-information {
+    border: 1px solid rgb(255, 166, 166);
 }
 
-.information{
+.information {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    border:1px solid rgb(90, 194, 107);
+    border: 1px solid rgb(90, 194, 107);
 }
 
-.information-content{
+.information-content {
     flex: 68%;
-    border:1px solid rgb(11, 68, 255);
+    max-width: 100%;
+    border: 1px solid rgb(11, 68, 255);
+    display: flex;
+    flex-flow: column wrap;
 }
 
-.aside-content{
-    flex:25%;
-    border:1px solid rgb(255, 11, 11);
+.information-content h4 {
+    font-size: 18px;
+    margin-bottom: 16px
+}
+
+.code-example {
+    background: #ebeaea;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: 40px;
+    max-width: 100%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.pre {
+    text-align: center;
+    flex: 90%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.code-space {
+    max-width: 100%;
+}
+
+.element-example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.element-example p {
+    margin: 0;
+}
+
+.element-text {
+    font-size: 16px;
+}
+
+.span-tag{
+    color: #82997f;
+}
+
+.code-example button {
+    background: #ebeaea;
+    height: 30px;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.information-content h5{
+    margin: 0;
+}
+
+.aside-content {
+    flex: 25%;
+    border: 1px solid rgb(255, 11, 11);
 }
 
 .waiting {

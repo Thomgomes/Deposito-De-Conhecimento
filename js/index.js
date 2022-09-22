@@ -103,71 +103,128 @@ cardHtml.addEventListener("click", function () {
 
     sectionContent.innerHTML =
         `
-    <div class="title-subtitle">
-    <h2>Html</h2>
-    <h3 translate="no">HyperText Markup Language</h3>
-    <h3>(Linguagem de Marcação de HiperTexto)</h3>
-    </div>
-    <div class="basic-information">
-        <p>HTML é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.
-            Sendo
-            assim ele é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo
-            pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. Outras
-            tecnologias além do HTML geralmente são usadas para descrever a aparência <a onclick="SoftScroll(event)"
-                href="#cards-section">(CSS)</a> ou a
-               funcionalidade e comportamento <a onclick="SoftScroll(event)" href="#cards-section"
-                   id="js-link">(JavaScript)</a> de uma página da web.
-        </p>
-        <p><strong>"HiperTexto"</strong> refere-se aos links que conectam páginas da Web entre si, seja dentro de um
-            único site ou entre
-            sites. Links são um aspecto fundamental da web.
-        </p>
-        <p>
-            O HTML usa "Marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web.
-            A marcação HTML inclui "elementos" especiais, Um elemento HTML é separado de outro texto em um documento
-            por
-            "tags", que consistem no nome do elemento entre "<" e ">" . O nome de um elemento dentro de uma tag é
-                insensível a maiúsculas e minúsculas. Isto é, pode ser escrito em maiúsculas, minúsculas ou um
-                mistura. Por exemplo, a tag < title> pode ser escrita como < Title>, < TITLE> ou de qualquer outra
-                        forma.<br>
-                        (no código em si, não tem espaço entre os "<>" e o nome de um elemento dentro da tag!)
-        </p>
-    </div>
-    <div class="information">
-        <div class="information-content">
-            <h3 class="what-is">Então, oque seria HTML?</h3>
-            <p>
-                HTML não é uma linguagem de programação; é uma linguagem de marcação, usada para definir a estrutura
-                do seu conteúdo. HTML consiste de uma série de elementos, que você usa para delimitar ou agrupar
-                diferentes partes do conteúdo para que ele apareça ou atue de determinada maneira. As tags anexas
-                podem transformar uma palavra ou imagem num hiperlink, pode colocar palavras em itálico, pode
-                aumentar ou diminuir a fonte e assim por diante. Por exemplo, veja a seguinte linha de conteúdo:
-            </p>
-            <pre class="code-space">Minha gatinha é uma fofura!</pre>
-            <p>
-                Se quiséssemos que a linha permanecesse por si só, poderíamos especificar que é um parágrafo
-                colocando-a em uma tag de parágrafo:
-            </p>
-            <div class="code-example">
-                <pre class="pre code-space">
-                    <code>
-                        <span id="token-tag1">...</span>Minha gatinha é uma fofura!<span id="token-tag2">...</span>
-                    </code>
-                </pre>
-                <button class="mdi mdi-content-copy"></button>
-                <span></span>
+        <section class="section-content" id="section-content">
+            <div class="title-subtitle">
+                <h2>Html</h2>
+                <h3 translate="no">HyperText Markup Language</h3>
+                <h3>(Linguagem de Marcação de HiperTexto)</h3>
             </div>
-        </div>
-        <div class="aside-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deserunt nobis atque tempore! Maxime
-            distinctio ratione ver
-        </div>
-    </div>
+            <div class="basic-information">
+                <p>HTML é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.
+                    Sendo
+                    assim ele é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo
+                    pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. Outras
+                    tecnologias além do HTML geralmente são usadas para descrever a aparência <a onclick="SoftScroll(event)"
+                        href="#cards-section">(CSS)</a> ou a
+                    funcionalidade e comportamento <a onclick="SoftScroll(event)" href="#cards-section"
+                        id="js-link">(JavaScript)</a> de uma página da web.
+                </p>
+                <p><strong>"HiperTexto"</strong> refere-se aos links que conectam páginas da Web entre si, seja dentro de um
+                    único site ou entre
+                    sites. Links são um aspecto fundamental da web.
+                </p>
+                <p>
+                    O HTML usa "Marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web.
+                    A marcação HTML inclui "elementos" especiais, Um elemento HTML é separado de outro texto em um documento
+                    por
+                    "tags", que consistem no nome do elemento entre "<" e ">" . O nome de um elemento dentro de uma tag é
+                        insensível a maiúsculas e minúsculas. Isto é, pode ser escrito em maiúsculas, minúsculas ou um
+                        mistura. Por exemplo, a tag < title> pode ser escrita como < Title>, < TITLE> ou de qualquer outra
+                                forma.<br>
+                                (no código em si, não tem espaço entre os "<>" e o nome de um elemento dentro da tag!)
+                </p>
+            </div>
+            <div class="information">
+                <div class="information-content">
+                    <h4 class="information-itens" id="what-is">Então, oque seria HTML?</h4>
+                    <p>
+                        HTML não é uma linguagem de programação; é uma linguagem de marcação, usada para definir a estrutura
+                        do seu conteúdo. HTML consiste de uma série de elementos, que você usa para delimitar ou agrupar
+                        diferentes partes do conteúdo para que ele apareça ou atue de determinada maneira. As tags anexas
+                        podem transformar uma palavra ou imagem num hiperlink, pode colocar palavras em itálico, pode
+                        aumentar ou diminuir a fonte e assim por diante.
+                    </p>
+                    <h4 class="information-itens" id="elements">Elementos</h4>
+                    <p>
+                        Então oque seria um elemento?<br>
+                        Um elemento é parte de uma página web. Em HTML, um elemento pode conter um item de dados, ou
+                        um bloco de texto, ou uma imagem, ou talvez nada. Um elemento típico inclui uma tag de abertura com
+                        alguns atributos, o conteúdo de texto incluído e uma tag de fechamento.
+                    </p>
+
+                    <h4 class="information-itens" id="tags">Tags</h4>
+                    <p>
+                        Então oque seria uma tag?<br>
+                        Em HTML a tag é usada para criar um elemento. O nome de um elemento HTML é o nome usado entre
+                        colchetes angulares como "<span id="token-tag1">...</span>" para criar parágrafos. Note que ao
+                        fechar uma tag ela tem uma barra antes de seu nome, "<span id="token-tag2">...</span>" , e
+                        que em elementos vazios a tag final não é requirida e nem permitida. Se os atributos não forem
+                        mencionados, os valores padrões serão usados em cada caso.
+                    </p>
+                    <h4 class="information-itens" id="elements-tags">Elementos e Tags são a mesma coisa?</h4>
+                    <p>
+                        Não, elas não são a mesma coisa.<br>
+                        As tags começam ou terminam um elemento no código fonte, enquanto os elementos são parte do
+                        <strong>DOM</strong>, o modelo do documento para exibir a página no navegador.<br>
+                        De uma forma bem pratica vou mostrar como são representados os elementos e as tags em HTML:
+                    </p>
+                    <div class="code-example">
+                        <p class="pre">
+                            <code class="code-space">
+                                <span class="span-tag">tag >></span> <span id="token-tag3">...</span>Minha gatinha é uma fofura!<span id="token-tag4">...</span> <span class="span-tag"><< tag</span>
+                            </code>
+                        </p>
+                        <button class="mdi mdi-content-copy"></button>
+                        <span></span>
+                    </div>
+                    <div class="element-example">
+                        ^ ^ ^
+                        <p class="element-text">tudo aquilo que está dentro da área cinza é o elemento</p>
+                        <p class="element-text" id="element-text">(exceto onde está escrioto " tag >> " e " << tag ")</p>
+                    </div>
+                    <h4 class="information-itens" id="dom">DOM</h4>
+                    <h5>Document Object Model</h5>
+                    <h5>(Modelo de Objeto de Documentos)</h5>
+                    <p>
+                        É uma <strong>API</strong> definida pelo <strong><a href="https://www.w3c.br/"
+                                target="_blank">W3C</a></strong> para representar e interagir com qualquer documento HTML.
+                    </p>
+                    <p>
+                        O DOM é uma das <strong>APIs</strong> mais usadas na <strong>Web</strong> porque ele permite que cada código rodando no
+                        navegador acesse e interaja com cada nó do documento. Os nós podem ser criados, movidos ou
+                        modificados. Listeners de evento podem também ser adicionados aos nós para serem disparados quando
+                        um dado evento ocorrer.<br>Você pode ver mais sobre <strong>DOM</strong> e <strong>APIs</strong> no card de
+                        <a onclick="SoftScroll(event)" href="#cards-section" id="js-link">JavaScript</a>
+                    </p>
+
+                </div>
+                <div class="aside-content">
+                    <aside class="aside-section">
+                        <h6>Neste artigo</h6>
+                        <nav>
+                            <a onclick="SoftScroll(event)" href="#what-is" class="aside-options" id="what-is-option">Então,
+                                oque seria HTML?</a>
+                            <br>
+                            <a onclick="SoftScroll(event)" href="#elements" class="aside-options"
+                                id="element-option">Elementos</a>
+                            <br>
+                            <a onclick="SoftScroll(event)" href="#tags" class="aside-options" id="tag-option">Tags</a>
+                            <br>
+                            <a onclick="SoftScroll(event)" href="#elements-tags" class="aside-options"
+                                id="element-tag-option">Elementos e Tags são a mesma coisa?</a>
+                            <br>
+                            <a onclick="SoftScroll(event)" href="#dom" class="aside-options"
+                                id="dom-option">DOM</a>
+                            <br>
+                        </nav>
+                    </aside>
+                </div>
+            </div>
 `
-    const tokenP = document.getElementById("token-tag1")
-    const tokenP2 = document.getElementById("token-tag2")
-    tokenP.innerText = '<' + 'p>'
-    tokenP2.innerText = '</' + 'p>'
+    const tokenP = document.getElementById("token-tag1"); tokenP.innerText = '<' + 'p>';
+    const tokenP2 = document.getElementById("token-tag2"); tokenP2.innerText = '</' + 'p>';
+    const tokenP3 = document.getElementById("token-tag3"); tokenP3.innerText = '<' + 'p>';
+    const tokenP4 = document.getElementById("token-tag4"); tokenP4.innerText = '</' + 'p>';
 })
 cardCss.addEventListener("click", function () {
     SoftScroll(event)

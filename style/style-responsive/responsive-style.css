@@ -160,6 +160,16 @@
     }
 }
 
+@media screen and (max-width:770px) {
+    .span-tag{
+        display: none;
+    }
+
+    #element-text{
+        display: none;
+    }
+}
+
 @media screen and (max-width:651px) {
     .card{
         margin: 4%;
@@ -179,6 +189,12 @@
 
     .logo-rodape {
         padding: 30px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .aside-content{
+        display: none;
     }
 }
 
