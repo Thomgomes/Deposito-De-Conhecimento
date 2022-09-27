@@ -72,3 +72,10 @@ Span ao clicar em copiar.<br>
 reajuste em alguns tamanhos de tela.<br>
 Função criado para ajuste do tempo para copiar o texto novamente.
 </p>
+
+
+<h3>Avisos de ajustes para serem feitos</h3>
+<p>Arrumar uma forma com que o section content fique no tamanho original sem se perder.<br>
+Botão de copiar funcioando.<br>
+Mais nenhum ajuste visivel para se fazer além de por mais conteudo!
+</p>
