@@ -149,11 +149,11 @@
     </section>
 
     <section class="section-content" id="section-content">
-        <div class="waiting">
+        <!-- <div class="waiting">
             <p>Esperando Conteúdo para ser lido!<br><br>
             Para mostrar algum conteúdo aqui, escolha uma das opções na seção de conhecimentos!
             </p>
-        </div>
+        </div> -->
         <div class="title-subtitle">
             <h2>Html</h2>
             <h3 translate="no">HyperText Markup Language</h3>
@@ -193,7 +193,6 @@
                     diferentes partes do conteúdo para que ele apareça ou atue de determinada maneira. As tags anexas
                     podem transformar uma palavra ou imagem num hiperlink, pode colocar palavras em itálico, pode
                     aumentar ou diminuir a fonte e assim por diante.
-                    <!-- Por exemplo, veja a seguinte linha de conteúdo: -->
                 </p>
                 <h4 class="information-itens" id="elements">Elementos</h4>
                 <p>
@@ -222,29 +221,37 @@
                 <div class="code-example">
                     <p class="pre">
                         <code class="code-space">
-                            <span class="span-tag">tag >></span> <span id="token-tag3">...</span>Minha gatinha é uma fofura!<span id="token-tag4">...</span> <span class="span-tag"><< tag</span>
+                            <span id="token-tag3">...</span>Minha gatinha é uma fofura!<span id="token-tag4">...</span>
                         </code>
                     </p>
-                    <button class="mdi mdi-content-copy"></button>
-                    <span></span>
+                    <div class="copy-btn">
+                        <button id="copy-button" class="mdi mdi-content-copy copied"></button>
+                        <span class="span-copy-btn">copiado</span>
+                    </div>
                 </div>
                 <div class="element-example">
                     ^ ^ ^
-                    <p class="element-text">tudo aquilo que está dentro da área cinza é o elemento</p>
-                    <p class="element-text" id="element-text">(exceto onde está escrioto " tag >> " e " << tag ")</p>
+                    <p class="element-text">tudo aquilo que está dentro da área cinza é o elemento.</p>
+                    <p class="element-text" id="element-text">E a tag é o <strong>"p"</strong> que abre "<>" e fecha com
+                            a <<span class=none-span></span>/ > no final.</p>
                 </div>
-                <h4 class="information-itens" id="dom">DOM</h4>
+                <h4 class=" information-itens" id="dom">DOM</h4>
                 <h5>Document Object Model</h5>
                 <h5>(Modelo de Objeto de Documentos)</h5>
                 <p>
                     É uma <strong>API</strong> definida pelo <strong><a href="https://www.w3c.br/"
-                            target="_blank">W3C</a></strong> para representar e interagir com qualquer documento HTML.
+                            target="_blank">W3C</a></strong> para representar e interagir com qualquer
+                    documento HTML.
                 </p>
                 <p>
-                    O DOM é uma das <strong>APIs</strong> mais usadas na <strong>Web</strong> porque ele permite que cada código rodando no
-                    navegador acesse e interaja com cada nó do documento. Os nós podem ser criados, movidos ou
-                    modificados. Listeners de evento podem também ser adicionados aos nós para serem disparados quando
-                    um dado evento ocorrer.<br>Você pode ver mais sobre <strong>DOM</strong> e <strong>APIs</strong> no card de
+                    O DOM é uma das <strong>APIs</strong> mais usadas na <strong>Web</strong> porque ele
+                    permite que cada código rodando no
+                    navegador acesse e interaja com cada nó do documento. Os nós podem ser criados, movidos
+                    ou
+                    modificados. Listeners de evento podem também ser adicionados aos nós para serem
+                    disparados quando
+                    um dado evento ocorrer.<br>Você pode ver mais sobre <strong>DOM</strong> e
+                    <strong>APIs</strong> no card de
                     <a onclick="SoftScroll(event)" href="#cards-section" id="js-link">JavaScript</a>
                 </p>
 
@@ -252,21 +259,18 @@
             <div class="aside-content">
                 <aside class="aside-section">
                     <h6>Neste artigo</h6>
-                    <nav>
-                        <a onclick="SoftScroll(event)" href="#what-is" class="aside-options" id="what-is-option">Então,
-                            oque seria HTML?</a>
-                        <br>
-                        <a onclick="SoftScroll(event)" href="#elements" class="aside-options"
-                            id="element-option">Elementos</a>
-                        <br>
-                        <a onclick="SoftScroll(event)" href="#tags" class="aside-options" id="tag-option">Tags</a>
-                        <br>
-                        <a onclick="SoftScroll(event)" href="#elements-tags" class="aside-options"
-                            id="element-tag-option">Elementos e Tags são a mesma coisa?</a>
-                        <br>
-                        <a onclick="SoftScroll(event)" href="#dom" class="aside-options"
-                            id="dom-option">DOM</a>
-                        <br>
+                    <nav class="link-navigation">
+                        <button onclick="SoftScroll(event, 'center')" href="#what-is" class="aside-options hover-effect"
+                            id="what-is-option">Então, oque seria HTML?</button>
+                        <button onclick="SoftScroll(event, 'center')" href="#elements"
+                            class="aside-options hover-effect" id="element-option">Elementos</button>
+                        <button onclick="SoftScroll(event, 'center')" href="#tags" class="aside-options hover-effect"
+                            id="tag-option">Tags</button>
+                        <button onclick="SoftScroll(event, 'center')" href="#elements-tags"
+                            class="aside-options hover-effect" id="element-tag-option">Elementos e Tags são a mesma
+                            coisa?</button>
+                        <button onclick="SoftScroll(event, 'center')" href="#dom" class="aside-options hover-effect"
+                            id="dom-option">DOM</button>
                     </nav>
                 </aside>
             </div>

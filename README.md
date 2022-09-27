@@ -65,3 +65,9 @@ Suavisação ao redirecionar na mesma tela.
 Reajuste no tamanho do "nav".<br>
 Reajuste no menu hamburguer para dispositivos pequenos.
 </p>
+<h4>27/09/2022</h4>
+<p>Ajuste no aside-content.<br>
+Botão de copiar funcioando.<br>
+Span ao clicar em copiar.<br>
+reajuste em alguns tamanhos de tela.
+</p>

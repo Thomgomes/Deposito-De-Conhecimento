@@ -6,13 +6,29 @@ const cardCss = document.getElementById('card-css');
 const cardGit = document.getElementById('card-git');
 const cardGitHub = document.getElementById('card-github');
 
-let sectionContent = document.querySelector(".section-content")
+let sectionContent = document.querySelector('.section-content')
 
+const codeSpaceContent = document.querySelector('.code-space').textContent
+const copyButton = document.getElementById('copy-button')
 
+copyButton.addEventListener('click', function () {
+    const spanCopy = document.querySelector('.span-copy-btn')
+
+    if (copyButton.classList.contains('copied')){
+        copyButton.classList.remove('copied')
+        spanCopy.classList.remove('show-span')
+        console.log('ok')
+    }else {
+        copyButton.classList.add('copied')
+        spanCopy.classList.add('show-span')
+        navigator.clipboard.writeText(codeSpaceContent)
+        console.log('copiado')
+    }
+})
 
 
 //Função para mover até o href #
-function SoftScroll(event) {
+function SoftScroll(event, distance = 'start') {
     event.preventDefault()
 
     const href = event.currentTarget.getAttribute('href')
@@ -21,7 +37,7 @@ function SoftScroll(event) {
 
     locateHref.scrollIntoView({
         behavior: 'smooth',
-        block: 'start',
+        block: distance,
     })
 }
 
