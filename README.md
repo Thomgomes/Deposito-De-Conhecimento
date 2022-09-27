@@ -69,5 +69,6 @@ Reajuste no menu hamburguer para dispositivos pequenos.
 <p>Ajuste no aside-content.<br>
 Botão de copiar funcioando.<br>
 Span ao clicar em copiar.<br>
-reajuste em alguns tamanhos de tela.
+reajuste em alguns tamanhos de tela.<br>
+Função criado para ajuste do tempo para copiar o texto novamente.
 </p>

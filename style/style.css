@@ -494,7 +494,7 @@ section h2 {
 }
 
 .mdi.mdi-content-copy.copied {
-    color: red;
+    color: #009c86;
 }
 
 .span-copy-btn {
@@ -510,7 +510,7 @@ section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: tomato;
+    background-color: #009c86;
     color: white;
     font-size: 14px;
     border-bottom-left-radius: 11px;
@@ -523,7 +523,7 @@ section h2 {
 .span-copy-btn.show-span::before {
     content: "";
     position: absolute;
-    border-right: 9px solid tomato;
+    border-right: 9px solid #009c86;
     border-top: 9px solid transparent;
     border-left: 9px solid transparent;
     border-bottom: 9px solid transparent;

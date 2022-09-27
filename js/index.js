@@ -1,28 +1,36 @@
+//Função com data para scroll suave
 let internalLink = document.querySelector('[data-scroll="suave"] a[href^="#"]')
 
+
+//Seleção para cards
 const cardJs = document.getElementById('card-js');
 const cardHtml = document.getElementById('card-html');
 const cardCss = document.getElementById('card-css');
 const cardGit = document.getElementById('card-git');
 const cardGitHub = document.getElementById('card-github');
 
+
+//Selecionar a seção onde ficara o conteudo do card selecionado
 let sectionContent = document.querySelector('.section-content')
 
+
+//Botão para função de copiar texto
 const codeSpaceContent = document.querySelector('.code-space').textContent
 const copyButton = document.getElementById('copy-button')
+const spanCopy = document.querySelector('.span-copy-btn')
 
 copyButton.addEventListener('click', function () {
-    const spanCopy = document.querySelector('.span-copy-btn')
-
-    if (copyButton.classList.contains('copied')){
-        copyButton.classList.remove('copied')
-        spanCopy.classList.remove('show-span')
-        console.log('ok')
-    }else {
         copyButton.classList.add('copied')
         spanCopy.classList.add('show-span')
         navigator.clipboard.writeText(codeSpaceContent)
-        console.log('copiado')
+        console.log(codeSpaceContent + ' copiado')
+
+
+    setTimeout(disableCopyButton, 1500)
+
+    function disableCopyButton() {
+        copyButton.classList.remove('copied')
+        spanCopy.classList.remove('show-span')
     }
 })
 
