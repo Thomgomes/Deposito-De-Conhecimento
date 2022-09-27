@@ -71,11 +71,15 @@ Botão de copiar funcioando.<br>
 Span ao clicar em copiar.<br>
 reajuste em alguns tamanhos de tela.<br>
 Função criado para ajuste do tempo para copiar o texto novamente.
+(⭐ajustem em :<br>
+Arrumar uma forma com que o section content fique no tamanho original sem se perder.<br>
+Botão de copiar funcioando.
+✍Foi arrumado da seguinte forma:
+quando passado do codigo html para o js, eu esatva mandando o elemento section junto com o resto do conteudo, tudo que precisou ser feito foi enviar para o js sem levar a section em si, levando já da div em diante. Evitando assim o erro de localização na página!)
 </p>
 
 
 <h3>Avisos de ajustes para serem feitos</h3>
-<p>Arrumar uma forma com que o section content fique no tamanho original sem se perder.<br>
-Botão de copiar funcioando.<br>
+<p>
 Mais nenhum ajuste visivel para se fazer além de por mais conteudo!
 </p>
