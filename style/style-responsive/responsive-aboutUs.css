@@ -17,7 +17,7 @@
         width: 2rem;
         height: 2rem;
         position: fixed;
-        z-index: 100;
+        z-index: 3;
         right: 2.5rem;
         top: 1.7rem;
         display: flex;
@@ -35,8 +35,8 @@
         width: 100%;
         height: .2rem;
         margin-bottom: 0.3rem;
-        background-color: white;
-        box-shadow:inset 0 0 1em grey, 0 0 1em rgb(0, 0, 0);
+        background-color: var(--ddc-color-white);
+        box-shadow:inset 0 0 1em var(--ddc-color-grey), 0 0 1em var(--ddc-color-black);
         transition: transform 1s;
     }
     
@@ -60,8 +60,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: tomato;
-        color: white;
+        background-color: var(--ddc-color-tomato);
+        color: var(--ddc-color-white);
         border-bottom-left-radius: 11px;
         border-top-left-radius: 11px;
         border-bottom-right-radius: 11px;
@@ -73,7 +73,7 @@
     .hamburguer span::before{
         content: "";
         position: absolute;
-        border-right: .5rem solid tomato;
+        border-right: .5rem solid var(--ddc-color-tomato);
         border-top: .5rem solid transparent;
         border-left: .5rem solid transparent;
         border-bottom: .5rem solid transparent;
@@ -89,7 +89,7 @@
         width: 18rem;
         height: 36%;
         border-bottom-left-radius: 15px;
-        background-color: rgba(8, 90, 80, 0.719);
+        background-color: var(--ddc-color-blue-grey-blur-72porcent);
         position: fixed;
         top: 0;
         right: -20rem;
@@ -116,12 +116,12 @@
     .menu-smartphone-link{
         font-family: "Baloo Da 2", serif;
         font-size: 1.5rem;
-        color: white;
+        color: var(--ddc-color-white);
         transition: 0.5s;
     }
     
     .menu-smartphone-link:hover{
-        color: black;
+        color: var(--ddc-color-black);
     }
 
     .header {
@@ -148,6 +148,10 @@
 
     .text-in-left {
         animation: none;
+    }
+
+    .btn-theme-pc {
+        display: none;
     }
 }
 

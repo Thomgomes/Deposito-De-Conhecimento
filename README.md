@@ -83,14 +83,25 @@ Função do botão themeColor completa.<br>
 Função themeColor funcinando.<br>
 ":root" criada em uma nova pagina css.<br>
 Cores de style importadas para colors.css .<br>
-Cores em style ateradas para "var()" com suas devidas cores lá dentro.
+Cores em style ateradas para "var()" com suas devidas cores lá dentro.<br>
+Correção de escrita de purble para purple.<br>
+Adicionado colors.css para as demais paginas css.<br>
+Cores em "responsive.css" ateradas para "var()" com suas devidas cores lá dentro.<br>
+nome do arquivo "hamburguer.js" alterado para "events-all-pages.js".<br>
+(⭐ajustem em :<br>
+Adicionar cores dos devidos "responsive.css" ao colors.css .<br>
+Cores ajustadas para "var()".
+✍Foi arrumado da seguinte forma:<br>
+Cores das propriedas foram alteradas de forma com que pegassem suas cores das "var()" que vem do "colors.css".)
 </p>
 
 
 <h3>Avisos de ajustes para serem feitos</h3>
 <p>
 Ajustar botão de alteração de temas para todos os tamanhos de tela (Responsivo)!<br>
-Adicionar cores dos devidos "responsive.css" ao colors.css .<br>
 Gerar cores para modo escuro.(está ativo porém as cores não foram alteradas).<br>
+Alterar os font-family para "var()".<br>
+Botão de alterar o tema não está sobrepondo completamente o "sol" na pag de menções.<br>
+👉Adicionar possiveis variaveis para poder fluir uma pagina mais clean!<br>
 Mais nenhum ajuste visivel para se fazer além de por mais conteudo!
 </p>

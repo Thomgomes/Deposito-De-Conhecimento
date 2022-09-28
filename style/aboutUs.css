@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background: white;
+    background: var(--ddc-color-white);
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
@@ -18,8 +18,8 @@ body {
     flex-flow: row wrap;
     height: auto;
     max-height: 130px;
-    background: #ffffff;
-    border-bottom: 5px solid #711983;
+    background: var(--ddc-color-white);
+    border-bottom: 5px solid var(--ddc-color-purple);
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-    flex: 20%;
+    flex: 15%;
     margin-left: 10%;
     text-align: left;
 }
@@ -42,18 +42,69 @@ body {
 }
 
 .logo a{
-    color: #085a50;
+    color: var(--ddc-color-dark-green);
+}
+
+.btn-theme-pc {
+    flex: 5%;
+    position: relative;
+}
+
+.checktheme {
+    opacity: 0;
+    position: absolute;
+}
+
+.labeltheme {
+    background: var(--ddc-color-soft-black);
+    border-radius: 50px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+
+    transform: scale(1.5)
+}
+
+.labeltheme .themeball {
+    background: var(--ddc-color-white);
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform .2s linear;
+}
+
+.checktheme:checked + .labeltheme .themeball{
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: var(--ddc-btn-moon);
+}
+
+.fa-sun {
+    color: var(--ddc-btn-sun);
 }
 
 .menu {
-    flex: 70%;
+    flex: 65%;
     /* border:1px solid green;*/
     text-align: right;
     padding: 20px;
 }
 
 .menu a {
-    color: #180F4A;
+    color: var(--ddc-color-purple-dark);
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
@@ -61,14 +112,14 @@ body {
 }
 
 .menu a:hover {
-    color: #009c86;
-    border-top: 3px solid #180F4A;
+    color: var(--ddc-color-green-blue-mid);
+    border-top: 3px solid var(--ddc-color-purple-dark);
 }
 
 #botao {
-    background: #385a64;
+    background: var(--ddc-color-grey-dark-blue);
     padding: 10px 25px;
-    color: white;
+    color: var(--ddc-color-white);
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
@@ -77,7 +128,7 @@ body {
 
 #botao:hover {
     border: none;
-    background: #009c86;
+    background: var(--ddc-color-green-blue-mid);
 }
 
 .hamburguer {
@@ -96,7 +147,7 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: var(--ddc-color-white);
     padding-top: 200px;
 }
 
@@ -105,7 +156,7 @@ body {
     flex: 40%;
     text-align: center;
     border-radius: 9% 91% 19% 50% / 9% 97% 3% 50%;
-    background-image: linear-gradient(130deg, #2d4137, #085a50, #009c86);
+    background-image: linear-gradient(130deg, var(--ddc-color-green-blue-grey-blur), var(--ddc-color-dark-green), var(--ddc-color-green-blue-mid));
 }
 
 .img-headline img {
@@ -152,14 +203,14 @@ body {
 .headline {
     margin-left: 10%;
     flex: 40%;
-    /* border:1px solid black; */
+    /* border:1px solid var(--ddc-color-black); */
 }
 
 .headline h2 {
     font-weight: 900;
     font-size: 25px;
     font-family: 'Lobster', cursive;
-    color: #085a50;
+    color: var(--ddc-color-dark-green);
     padding: 0;
     margin: 0;
 }
@@ -172,7 +223,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     
-    color: #085a50;
+    color: var(--ddc-color-dark-green);
     padding: 0;
     padding-top: 30px;
     margin: 0;
@@ -224,9 +275,9 @@ body {
 footer {
     margin-top: 10px;
     height: 350px;
-    background-image: linear-gradient(180deg, #009c86, #085a50, black);
+    background-image: linear-gradient(180deg, var(--ddc-color-green-blue-mid), var(--ddc-color-dark-green), var(--ddc-color-black));
     text-align: center;
-    border-top: 5px solid #711983;
+    border-top: 5px solid var(--ddc-color-purple);
 }
 
 .logo-rodape {
@@ -235,21 +286,21 @@ footer {
 
 .agencia {
     font-family: 'Lobster', cursive;
-    color: white;
+    color: var(--ddc-color-white);
     font-size: 34px;
 }
 
 .logo-rodape p {
-    color: white;
+    color: var(--ddc-color-white);
 }
 
 .logo-rodape a {
-    color: white;
+    color: var(--ddc-color-white);
     font-size: 30px;
 }
 
 b {
-    color: white;
+    color: var(--ddc-color-white);
 }
 
 /* .github {

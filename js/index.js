@@ -1,13 +1,3 @@
-//alterar tema
-const $html = document.querySelector('html');
-const themeColor = document.getElementById('checktheme');
-
-themeColor.addEventListener('change', function() {
-    $html.classList.toggle('dark-mode')
-})
-
-
-
 //Função com data para scroll suave
 let internalLink = document.querySelector('[data-scroll="suave"] a[href^="#"]')
 

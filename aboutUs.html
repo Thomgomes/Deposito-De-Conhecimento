@@ -10,6 +10,7 @@
     <meta name="author" content="Thomás Gomes">
     <link rel="stylesheet" href="./style/aboutUs.css">
     <link rel="stylesheet" href="./style/style-responsive/responsive-aboutUs.css">
+    <link rel="stylesheet" href="./style/list-color/colors.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
@@ -21,6 +22,14 @@
     <nav class="navbar">
         <div class="logo">
             <h1><a href="./index.html">Depósito De Conhecimento</a></h1>
+        </div>
+        <div class="btn-theme-pc">
+            <input type="checkbox" class="checktheme" id="checktheme">
+            <label for="checktheme" class="labeltheme">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="themeball"></div>
+            </label>
         </div>
         <div class="menu">
             <a href="./index.html">Home</a>
@@ -40,7 +49,19 @@
                 <ul style>
                     <li></li>
                     <li class="menu-smartphone-item"><a href="./index.html" class="menu-smartphone-link">Home</a></li>
-                    <li class="menu-smartphone-item"><a href="./mencoes.html" class="menu-smartphone-link">Menções</a></li>
+                    <li class="menu-smartphone-item"><a href="./mencoes.html" class="menu-smartphone-link">Menções</a>
+                    </li>
+                    <hr>
+                    <li class="menu-smartphone-item">
+                        <div class="btn-theme-mobile">
+                            <input type="checkbox" class="checktheme" id="checktheme-menu-hamburguer">
+                            <label for="checktheme-menu-hamburguer" class="labeltheme">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+                                <div class="themeball"></div>
+                            </label>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -72,7 +93,7 @@
             </div>
         </div>
     </header>
-    
+
     <footer>
         <div class="logo-rodape">
             <h2 class="agencia">Depósito de Conhecimento</h2>
@@ -85,8 +106,9 @@
 
     <!-- <a class="github" target="_blank" href="https://github.com/Thomgomes"><img class="githubimg"
             src="./images/img/github.png"></a> -->
-                        
-    <script src="./js/menu-hamburguer.js"></script>
+
+    <script src="./js/events-all-pages.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
