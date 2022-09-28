@@ -10,6 +10,7 @@
     <meta name="author" content="Thomás Gomes">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/style-responsive/responsive-style.css">
+    <link rel="stylesheet" href="./style/list-color/colors.css">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
@@ -22,6 +23,14 @@
     <nav class="navbar">
         <div data-scroll="suave" class="logo">
             <h1><a href="#home">Depósito De Conhecimento</a></h1>
+        </div>
+        <div class="btn-theme-pc">
+            <input type="checkbox" class="checktheme" id="checktheme">
+            <label for="checktheme" class="labeltheme">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="themeball"></div>
+            </label>
         </div>
         <div class="menu">
             <a onclick="SoftScroll(event)" href="#home">Home</a>
@@ -44,6 +53,17 @@
                     <li class="menu-smartphone-item"><a href="./aboutUs.html" class="menu-smartphone-link">Sobre nós</a>
                     </li>
                     <li class="menu-smartphone-item"><a href="./mencoes.html" class="menu-smartphone-link">Menções</a>
+                    </li>
+                    <hr>
+                    <li class="menu-smartphone-item">
+                        <div class="btn-theme">
+                            <input type="checkbox" class="checktheme" id="checktheme">
+                            <label for="checktheme" class="labeltheme">
+                                <i class="fas fa-moon"></i>
+                                <i class="fas fa-sun"></i>
+                                <div class="themeball"></div>
+                            </label>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -291,6 +311,7 @@
 
     <script src="./js/menu-hamburguer.js"></script>
     <script src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

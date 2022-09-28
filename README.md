@@ -70,16 +70,27 @@ Reajuste no menu hamburguer para dispositivos pequenos.
 Botão de copiar funcioando.<br>
 Span ao clicar em copiar.<br>
 reajuste em alguns tamanhos de tela.<br>
-Função criado para ajuste do tempo para copiar o texto novamente.
+Função criado para ajuste do tempo para copiar o texto novamente.<br>
 (⭐ajustem em :<br>
 Arrumar uma forma com que o section content fique no tamanho original sem se perder.<br>
 Botão de copiar funcioando.
-✍Foi arrumado da seguinte forma:
-quando passado do codigo html para o js, eu esatva mandando o elemento section junto com o resto do conteudo, tudo que precisou ser feito foi enviar para o js sem levar a section em si, levando já da div em diante. Evitando assim o erro de localização na página!)
+✍Foi arrumado da seguinte forma:<br>
+Quando passado do codigo html para o js, eu esatva mandando o elemento section junto com o resto do conteudo, tudo que precisou ser feito foi enviar para o js sem levar a section em si, levando já da div em diante. Evitando assim o erro de localização na página!)
+</p>
+<h4>28/09/2022</h4>
+<p>Botão de Trocar o modo entre Light e Dark mode.<br>
+Função do botão themeColor completa.<br>
+Função themeColor funcinando.<br>
+":root" criada em uma nova pagina css.<br>
+Cores de style importadas para colors.css .<br>
+Cores em style ateradas para "var()" com suas devidas cores lá dentro.
 </p>
 
 
 <h3>Avisos de ajustes para serem feitos</h3>
 <p>
+Ajustar botão de alteração de temas para todos os tamanhos de tela (Responsivo)!<br>
+Adicionar cores dos devidos "responsive.css" ao colors.css .<br>
+Gerar cores para modo escuro.(está ativo porém as cores não foram alteradas).<br>
 Mais nenhum ajuste visivel para se fazer além de por mais conteudo!
 </p>

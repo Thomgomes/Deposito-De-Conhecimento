@@ -1,0 +1,96 @@
+:root {
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-title: 'Lobster', 'cursive', sans-serif;
+    --font-family-text: 'Aref Ruqaa Ink', serif;
+    --font-family-card: 'Work Sans', sans-serif;
+
+    --ddc-color-black: #000000;
+    --ddc-color-soft-black: #111111;
+    --ddc-color-white: #fafafa;
+    --ddc-color-almost-white: #ebeaea;
+    --ddc-color-dark-green: #085a50;
+    --ddc-color-green-blue-mid: #009c86;
+    --ddc-color-green-blue-grey-blur: #2d4137;
+    --ddc-color-green-grey: #4a5c44;
+    --ddc-color-grey-dark-blue: #385a64;
+    --ddc-color-purble: #711983;
+    --ddc-color-purble-60procent: #71198399;
+    --ddc-color-purble-dark: #180F4A;
+    --ddc-color-soft-blue: #a1fcee;
+    --ddc-color-soft-blue-2: #85eede;
+    --ddc-color-soft-blue-3: #7acec1;
+    --ddc-color-soft-grey-in-red: #737373;
+    --ddc-color-soft-pink: #f4e5fa;
+    --ddc-color-soft-strong-pink: #dfa1fc;
+
+
+    --ddc-btn-moon: #f1c40f;
+    --ddc-btn-sun: #f39c12;
+
+
+    --ddc-mdi-git: #f1502f;
+
+    --ddc-ring-animation-color-1: #e65c00;
+    --ddc-ring-animation-color-2: #18b201;
+    --ddc-ring-animation-color-3: #0456c8;
+
+
+    /* --ddc-background-navbar: #fafafa; */
+    /* --ddc-background-navbar-border-bottom: #711983; */
+    /* --ddc-background-button: #385a64; */
+    /* --ddc-background-button-hover: #009c86; */
+
+    /* --ddc-headline-color: #4a5c44; */
+    /* --ddc-background-image-img-headline-1: #2d4137; */
+    /* --ddc-background-image-img-headline-1: #085a50; */
+    /* --ddc-background-image-img-headline-1: #009c86; */
+    
+    /* --ddc-btn-theme: #111111; */
+    /* --ddc-btn-ball-theme: #fafafa; */
+    
+    
+    /* --ddc-card-border: #a1fcee; */
+    /* --ddc-card-background-border-hover: #a1fcee; */
+    /* --ddc-card-background-border-checked: #85eede; */
+    /* --ddc-card-color: #000000; */
+    /* --ddc-card-border-box-shadow: #7acec1; */
+    
+    /* --ddc-color-menu-a: #180F4A; */
+    /* --ddc-color-menu-a-hover: #009c86; */
+    /* --ddc-color-menu-a-hover-border: #180F4A; */
+    
+    /* --ddc-card-loading-background: #f4e5fa; */
+    /* --ddc-card-loading-border: #dfa1fc; */
+    /* --ddc-card-loading-background-border-hover: #a1fcee; */
+    /* --ddc-card-loading-background-border-checked: #85eede; */
+    /* --ddc-card-loading-color: #000000; */
+    /* --ddc-card-loading-border-box-shadow: #711983; */
+    
+
+    /* --ddc-ring-animation-before: #71198399; */
+    /* --ddc-ring-animation-color-span: #737373; */
+    
+
+    /* --ddc-mdi-content-copy: #009c86; */
+    
+    /* --ddc-section-content-color: #4a5c44; */
+    
+    /* --ddc-background-code-example: #ebeaea; */
+    /* --ddc-span-copy-btn-background: #009c86; */
+    /* --ddc-span-copy-btn-color: #fafafa; */
+    /* --ddc-span-copy-btn-ballon: #009c86; */
+
+
+    /* --ddc-aside-options-border-r: #085a50; */
+    /* --ddc-aside-options-color-hover: #fafafa; */
+    /* --ddc-aside-options-backgronud-before: #085a50; */
+
+    /* --ddc-footer-background-border-t: #711983; */
+    /* --ddc-footer-background-image-color-1: #009c86; */
+    /* --ddc-footer-background-image-color-1: #085a50; */
+    /* --ddc-footer-background-image-color-1: #000000; */
+}
+
+.dark-mode:root {
+    --ddc-background-navbar: #070e14;
+}
