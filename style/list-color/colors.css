@@ -8,14 +8,17 @@
     /* Cores presentes nas paginas */
     --ddc-color-black: #000000;
     --ddc-color-soft-black: #111111;
-    --ddc-color-white: #fafafa;
+    --ddc-color-white: #ffffff;
+    --ddc-color-white-fa: #fafafa;
     --ddc-color-almost-white: #ebeaea;
+    --ddc-color-blue-grey-blur-72porcent: #085a50b7;
     --ddc-color-dark-green: #085a50;
     --ddc-color-green-blue-mid: #009c86;
     --ddc-color-green-blue-grey-blur: #2d4137;
-    --ddc-color-green-grey: #4a5c44;
+    --ddc-color-green-grey: #354231;
     --ddc-color-grey: #808080;
     --ddc-color-grey-dark-blue: #385a64;
+    --ddc-color-grey-light: #e9e9e9;
     --ddc-color-purple: #711983;
     --ddc-color-purple-60procent: #71198399;
     --ddc-color-purple-dark: #180F4A;
@@ -33,22 +36,45 @@
 
 
     /* Area do menu hamburguer */
-    --ddc-color-blue-grey-blur-72porcent: #085a50b7;
+    --ddc-color-menu-hamburguer: #085a50b7;
 
 
     /* Cor do icone do card do git */
     --ddc-mdi-git: #f1502f;
+    --ddc-mdi-github: #000000;
 
     /* Cores presentes no circulo de loading (do card-loading) */
     --ddc-ring-animation-color-1: #e65c00;
     --ddc-ring-animation-color-2: #18b201;
     --ddc-ring-animation-color-3: #0456c8;
 
+    
+    /* Especificos */
+    --ddc-background-primary: #ffffff;
 
+    --ddc-color-title: #085a50;
+    --ddc-color-text-primary: #354231;
+    --ddc-color-text-secondary: #000000;
+    --ddc-color-text-white: #ffffff;
 
+    --ddc-color-dividing-border: #711983;
 
-
-
+    --ddc-color-card: #f3f7f0;
+    --ddc-color-card-border: #a1fcee;
+    --ddc-color-card-border-radius: #85eede;
+    --ddc-color-card-border-radius-hover: #7acec1;
+    --ddc-color-card-hover: #a1fcee;
+    --ddc-color-code: #ebeaea;
+    --ddc-color-code-copy: #009c86;
+    --ddc-color-code-text: #000000;
+    --ddc-color-img-headline-border-index: #ffffff;
+    --ddc-color-menu-button: #385a64;
+    --ddc-color-menu-button-hover: #009c86;
+    --ddc-color-menu-button-text: #ffffff;
+    --ddc-color-menu-itens: #180F4A;
+    --ddc-color-menu-itens-hover: #009c86;
+    --ddc-color-menu-itens-aside-hover: #ffffff;
+    
 
     /* --ddc-background-navbar: #fafafa; */
     /* --ddc-background-navbar-border-bottom: #711983; */
@@ -107,25 +133,32 @@
 }
 
 .dark-mode:root {
-    /* Cores presentes nas paginas */
-    --ddc-color-black: #000000;
-    --ddc-color-soft-black: #111111;
-    --ddc-color-white: #111111;
-    --ddc-color-almost-white: #ebeaea;
-    --ddc-color-dark-green: #085a50;
-    --ddc-color-green-blue-mid: #009c86;
-    --ddc-color-green-blue-grey-blur: #2d4137;
-    --ddc-color-green-grey: #4a5c44;
-    --ddc-color-grey: #808080;
-    --ddc-color-grey-dark-blue: #385a64;
-    --ddc-color-purple: #711983;
-    --ddc-color-purple-60procent: #71198399;
-    --ddc-color-purple-dark: #180F4A;
-    --ddc-color-soft-blue: #a1fcee;
-    --ddc-color-soft-blue-2: #85eede;
-    --ddc-color-soft-blue-3: #7acec1;
-    --ddc-color-soft-grey-in-red: #737373;
-    --ddc-color-soft-pink: #f4e5fa;
-    --ddc-color-soft-strong-pink: #dfa1fc;
-    --ddc-color-tomato: #ff6347;
+    
+
+    --ddc-background-primary: #111111; /* alterada mas */
+
+    --ddc-color-title: #0cc954; /* alterada mas */
+    --ddc-color-text-primary: #f1f8ef; /* alterada mas */
+    --ddc-color-text-secondary: #000000;
+    --ddc-color-text-white: #ffffff;
+
+    --ddc-color-dividing-border: #9b8fdf; /* alterada mas */
+
+    --ddc-color-card: #ffffff; /* alterada mas */
+    --ddc-color-card-border: #c2b7ff; /* alterada mas */
+    --ddc-color-card-border-radius: #b2a7f1; /* alterada mas */
+    --ddc-color-card-border-radius-hover: #9589db; /* alterada mas */
+    --ddc-color-card-hover: #a1fcee; /* alterada mas */
+    --ddc-color-code: #ebeaea;
+    --ddc-color-code-copy: #b2a7f1; /* alterada mas */
+    --ddc-color-code-text: #000000;
+    --ddc-color-img-headline-border-index: #b2a7f1; /* alterada mas */
+    --ddc-color-menu-button: #b2a7f1; /* alterada mas */
+    --ddc-color-menu-button-hover: #6553ca; /* alterada mas */
+    --ddc-color-menu-button-text: #ffffff; /* alterada mas */
+    --ddc-color-menu-itens: #b2a7f1; /* alterada mas */
+    --ddc-color-menu-itens-hover: #ffffff; /* alterada mas */
+    --ddc-color-menu-itens-aside-hover: #ffffff; 
+
+    /* --ddc-mdi-github: #ffffff; */
 }

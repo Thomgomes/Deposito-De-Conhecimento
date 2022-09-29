@@ -10,7 +10,7 @@
 }
 
 html{
-    background: var(--ddc-color-white);
+
     transition: all .2s linear
 }
 
@@ -19,6 +19,8 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     overflow-x: hidden;
+    background: var(--ddc-background-primary);
+    transition: all .2s linear
 }
 
 
@@ -27,13 +29,14 @@ body {
     flex-flow: row wrap;
     height: auto;
     max-height: 130px;
-    background: var(--ddc-color-white);
-    border-bottom: 5px solid var(--ddc-color-purple);
+    background: var(--ddc-background-primary);
+    border-bottom: 5px solid var(--ddc-color-dividing-border);
     justify-content: center;
     align-items: center;
     position: fixed;
     width: 100%;
     z-index: 1;
+    transition: all .2s linear
 }
 
 .logo {
@@ -51,7 +54,7 @@ body {
 }
 
 .logo a {
-    color: var(--ddc-color-dark-green);
+    color: var(--ddc-color-title);
 }
 
 .btn-theme-pc {
@@ -82,7 +85,7 @@ body {
 }
 
 .labeltheme .themeball {
-    background: var(--ddc-color-white);
+    background: var(--ddc-background-primary);
     border-radius: 50px;
     position: absolute;
     top: 2px;
@@ -113,7 +116,7 @@ body {
 }
 
 .menu a {
-    color: var(--ddc-color-purple-dark);
+    color: var(--ddc-color-menu-itens);
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
@@ -121,23 +124,23 @@ body {
 }
 
 .menu a:hover {
-    color: var(--ddc-green-blue-mid);
-    border-top: 3px solid var(--ddc-color-purple-dark);
+    color: var(--ddc-color-menu-itens-hover);
+    border-top: 3px solid var(--ddc-color-menu-itens-hover);
 }
 
 #botao {
-    background: var(--ddc-color-grey-dark-blue);
+    background: var(--ddc-color-menu-button);
     padding: 10px 25px;
-    color: var(--ddc-color-white);
+    color: var(--ddc-color-menu-button-text);
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
-    transition: all ease 0.2s;
+    transition: all ease .3s;
 }
 
 #botao:hover {
     border: none;
-    background: var(--ddc-green-blue-mid);
+    background: var(--ddc-color-menu-button-hover);
 }
 
 .hamburguer {
@@ -171,7 +174,7 @@ body {
     font-weight: 900;
     font-size: 30px;
     font-family: 'Lobster', cursive;
-    color: var(--ddc-color-dark-green);
+    color: var(--ddc-color-title);
     padding: 0;
     margin: 0;
 }
@@ -184,14 +187,14 @@ body {
     font-weight: 900;
     font-size: 30px;
     font-family: 'Lobster', cursive;
-    color: var(--ddc-color-dark-green);
+    color: var(--ddc-color-title);
     padding: 0;
     padding-top: 30px;
     margin: 0;
 }
 
 .headline p {
-    color: var(--ddc-green-grey);
+    color: var(--ddc-color-text-primary);
     text-align: left;
     font-family: 'Aref Ruqaa Ink', serif;
     font-size: 20px;
@@ -222,8 +225,9 @@ body {
     margin-left: 10%;
     flex: 40%;
     text-align: center;
-    border-radius: 88% 4% 77% 100% / 75% 4% 70% 100%;
-    background-image: linear-gradient(130deg, var(--ddc-green-blue-grey-blur), var(--ddc-color-dark-green), var(--ddc-green-blue-mid));
+    border-radius: 88% 4% 77% 10% / 75% 4% 70% 100%;
+    background: var(--ddc-color-img-headline-border-index);
+    transition: all .2s linear
 }
 
 .img-headline {
@@ -268,7 +272,7 @@ section h2 {
     margin: 0;
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    color: var(--ddc-color-dark-green);
+    color: var(--ddc-color-title);
 }
 
 .servicos {
@@ -280,17 +284,18 @@ section h2 {
 }
 
 .card {
-    color: var(--ddc-color-black);
+    color: var(--ddc-color-text-secondary);
     width: 28%;
     min-width: 250px;
     min-height: 297.44px;
     padding: 20px;
     margin: 1%;
-    border: 1px solid var(--ddc-color-soft-blue);
+    border: 1px solid var(--ddc-color-card-border);
     border-radius: 10px;
-    box-shadow: 5px 6px var(--ddc-color-soft-blue-3);
+    box-shadow: 5px 6px var(--ddc-color-card-border-radius);
     cursor: pointer;
     transition: all ease 0.4s;
+    background: var(--ddc-color-card);
 }
 
 .card img {
@@ -313,12 +318,18 @@ section h2 {
 
 .mdi-git {
     color: var(--ddc-mdi-git);
+    transition: all .2s linear
+}
+
+.mdi-github {
+    color: var(--ddc-mdi-github);
+    transition: all .2s linear
 }
 
 .card:hover {
-    background: var(--ddc-color-soft-blue);
+    background: var(--ddc-color-card-hover);
     padding: 25px;
-    box-shadow: 3px 4px var(--ddc-color-soft-blue-3);
+    box-shadow: 3px 4px var(--ddc-color-card-border-radius-hover);
 }
 
 .card:hover .card-text p {
@@ -449,7 +460,7 @@ section h2 {
     margin-left: 10%;
     margin-right: 10%;
     font-family: 'Aref Ruqaa Ink', serif;
-    color: var(--ddc-green-grey);
+    color: var(--ddc-color-text-primary);
 }
 
 .title-subtitle {
@@ -463,7 +474,7 @@ section h2 {
 
 .title-subtitle h3 {
     font-size: 24px;
-    color: var(--ddc-color-dark-green);
+    color: var(--ddc-color-title);
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -493,7 +504,7 @@ section h2 {
 }
 
 .code-example {
-    background: var(--ddc-color-almost-white);
+    background: var(--ddc-color-code);
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -508,6 +519,7 @@ section h2 {
     flex: 90%;
     max-width: 100%;
     margin: 0;
+    color: var(--ddc-color-code-text)
 }
 
 .code-space {
@@ -531,7 +543,7 @@ section h2 {
 }
 
 .code-example button {
-    background: var(--ddc-color-almost-white);
+    background: var(--ddc-green-blue-mid);
     height: 30px;
     width: 30px;
     border: none;
@@ -547,7 +559,7 @@ section h2 {
 }
 
 .mdi.mdi-content-copy.copied {
-    color: var(--ddc-green-blue-mid);
+    color: var(--ddc-color-code-copy);
 }
 
 .span-copy-btn {
@@ -563,8 +575,8 @@ section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--ddc-green-blue-mid);
-    color: var(--ddc-color-white);
+    background-color: var(--ddc-color-code-copy);
+    color: var(--ddc-color-text-white);
     font-size: 14px;
     border-bottom-left-radius: 11px;
     border-top-left-radius: 11px;
@@ -630,9 +642,9 @@ section h2 {
     font-size: 14px;
     text-align: left;
     background: transparent;
-    border-right: 1px solid var(--ddc-color-dark-green);
+    border-right: 1px solid var(--ddc-color-title);
     border-radius: 10px;
-    color: var(--ddc-color-green-grey);
+    color: var(--ddc-color-menu-itens);
     text-decoration: underline;
     cursor: pointer;
 
@@ -646,7 +658,7 @@ section h2 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: var(--ddc-color-dark-green);
+    background: var(--ddc-color-title);
     z-index: -1;
     transition: all ease-out .4s;
 }
@@ -658,7 +670,7 @@ section h2 {
 }
 
 .aside-options:hover {
-    color: #fff;
+    color: var(--ddc-color-menu-itens-aside-hover);
 }
 
 .hover-effect:hover::before {
@@ -671,6 +683,7 @@ section h2 {
     justify-content: center;
     align-items: center;
     font-family: 'Aref Ruqaa Ink', serif;
+    color: var(--ddc-color-text-secundary);
     font-weight: 600;
     font-size: 20px;
 }
@@ -680,7 +693,7 @@ footer {
     height: 350px;
     background-image: linear-gradient(180deg, var(--ddc-color-green-blue-mid), var(--ddc-color-dark-green), var(--ddc-color-black));
     text-align: center;
-    border-top: 5px solid var(--ddc-color-purple);
+    border-top: 5px solid var(--ddc-color-dividing-border);
     bottom: 0;
 }
 
@@ -690,16 +703,16 @@ footer {
 
 .agencia {
     font-family: 'Lobster', cursive;
-    color: var(--ddc-color-white);
+    color: var(--ddc-color-text-white);
     font-size: 34px;
 }
 
 .logo-rodape p {
-    color: var(--ddc-color-white);
+    color: var(--ddc-color-text-white);
 }
 
 b {
-    color: var(--ddc-color-white);
+    color: var(--ddc-color-text-white);
 }
 
 .github {
