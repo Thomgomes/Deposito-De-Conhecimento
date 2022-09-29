@@ -57,23 +57,33 @@
     --ddc-color-text-secondary: #000000;
     --ddc-color-text-white: #ffffff;
 
-    --ddc-color-dividing-border: #711983;
+
 
     --ddc-color-card: #f3f7f0;
     --ddc-color-card-border: #a1fcee;
     --ddc-color-card-border-radius: #85eede;
     --ddc-color-card-border-radius-hover: #7acec1;
     --ddc-color-card-hover: #a1fcee;
+
     --ddc-color-code: #ebeaea;
     --ddc-color-code-copy: #009c86;
     --ddc-color-code-text: #000000;
+
+    --ddc-color-dividing-border: #711983;
+
     --ddc-color-img-headline-border-index: #ffffff;
+
     --ddc-color-menu-button: #385a64;
     --ddc-color-menu-button-hover: #009c86;
     --ddc-color-menu-button-text: #ffffff;
     --ddc-color-menu-itens: #180F4A;
     --ddc-color-menu-itens-hover: #009c86;
     --ddc-color-menu-itens-aside-hover: #ffffff;
+    --ddc-color-menu-theme: #111111;
+
+    --ddc-color-footer-1: #009c86;
+    --ddc-color-footer-2: #085a50;
+    --ddc-color-footer-3: #000000;
     
 
     /* --ddc-background-navbar: #fafafa; */
@@ -137,28 +147,38 @@
 
     --ddc-background-primary: #111111; /* alterada mas */
 
-    --ddc-color-title: #0cc954; /* alterada mas */
+    --ddc-color-title: #b2a7f1; /* alterada mas */
     --ddc-color-text-primary: #f1f8ef; /* alterada mas */
     --ddc-color-text-secondary: #000000;
     --ddc-color-text-white: #ffffff;
 
-    --ddc-color-dividing-border: #9b8fdf; /* alterada mas */
+    
 
     --ddc-color-card: #ffffff; /* alterada mas */
     --ddc-color-card-border: #c2b7ff; /* alterada mas */
     --ddc-color-card-border-radius: #b2a7f1; /* alterada mas */
     --ddc-color-card-border-radius-hover: #9589db; /* alterada mas */
     --ddc-color-card-hover: #a1fcee; /* alterada mas */
+    
+    --ddc-color-dividing-border: #9b8fdf; /* alterada mas */
+
     --ddc-color-code: #ebeaea;
     --ddc-color-code-copy: #b2a7f1; /* alterada mas */
     --ddc-color-code-text: #000000;
+
     --ddc-color-img-headline-border-index: #b2a7f1; /* alterada mas */
+
     --ddc-color-menu-button: #b2a7f1; /* alterada mas */
     --ddc-color-menu-button-hover: #6553ca; /* alterada mas */
     --ddc-color-menu-button-text: #ffffff; /* alterada mas */
     --ddc-color-menu-itens: #b2a7f1; /* alterada mas */
     --ddc-color-menu-itens-hover: #ffffff; /* alterada mas */
     --ddc-color-menu-itens-aside-hover: #ffffff; 
+    --ddc-color-menu-theme: #5c4477; /* alterada mas */
+
+    --ddc-color-footer-1: #563af8; /* alterada mas */
+    --ddc-color-footer-2: #4b3ba7; /* alterada mas */
+    --ddc-color-footer-3: #000000; /* alterada mas */
 
     /* --ddc-mdi-github: #ffffff; */
 }

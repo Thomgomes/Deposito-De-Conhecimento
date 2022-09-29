@@ -56,7 +56,7 @@ body {
 }
 
 .labeltheme {
-    background: var(--ddc-color-soft-black);
+    background: var(--ddc-color-menu-theme);
     border-radius: 50px;
     cursor: pointer;
 

@@ -97,7 +97,11 @@ Cores das propriedas foram alteradas de forma com que pegassem suas cores das "v
 
 <h4>29/09/2022</h4>
 <p>Varias variaveis criadas para a troca de temas.<br>
-Cores sendo alteradas normalmente.
+Cores sendo alteradas normalmente.<br>
+Span do "fechar" no menu hambuguer alterado (cor e formato).<br>
+Botão de alterar tema para mobile alterado para um botâo com texto.<br>
+Função gerada para alterar o tema de forma consistente com o themeBtn.<br>
+Coloração do "footer" alterado no modo dark. 
 </p>
 
 

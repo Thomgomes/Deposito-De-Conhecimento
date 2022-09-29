@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 
-html{
+html {
 
     transition: all .2s linear
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .labeltheme {
-    background: var(--ddc-color-soft-black);
+    background: var(--ddc-color-menu-theme);
     border-radius: 50px;
     cursor: pointer;
 
@@ -81,7 +81,8 @@ body {
     height: 26px;
     width: 50px;
 
-    transform: scale(1.5)
+    transform: scale(1.5);
+    transition: all .15s linear;
 }
 
 .labeltheme .themeball {
@@ -96,7 +97,7 @@ body {
     transition: transform .2s linear;
 }
 
-.checktheme:checked + .labeltheme .themeball{
+.checktheme:checked+.labeltheme .themeball {
     transform: translateX(24px);
 }
 
@@ -691,10 +692,11 @@ section h2 {
 footer {
     margin-top: 10px;
     height: 350px;
-    background-image: linear-gradient(180deg, var(--ddc-color-green-blue-mid), var(--ddc-color-dark-green), var(--ddc-color-black));
+    background-image: linear-gradient(180deg, var(--ddc-color-footer-1), var(--ddc-color-footer-2), var(--ddc-color-footer-3));
     text-align: center;
     border-top: 5px solid var(--ddc-color-dividing-border);
     bottom: 0;
+    transition: all .4s linear;
 }
 
 .logo-rodape {
