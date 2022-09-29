@@ -71,7 +71,7 @@ Botão de copiar funcioando.<br>
 Span ao clicar em copiar.<br>
 reajuste em alguns tamanhos de tela.<br>
 Função criado para ajuste do tempo para copiar o texto novamente.<br>
-(⭐ajustem em :<br>
+(⭐ajuste em :<br>
 Arrumar uma forma com que o section content fique no tamanho original sem se perder.<br>
 Botão de copiar funcioando.<br>
 ✍Foi arrumado da seguinte forma:<br>
@@ -88,7 +88,7 @@ Correção de escrita de purble para purple.<br>
 Adicionado colors.css para as demais paginas css.<br>
 Cores em "responsive.css" alteradas para "var()" com suas devidas cores lá dentro.<br>
 nome do arquivo "hamburguer.js" alterado para "events-all-pages.js".<br>
-(⭐ajustem em :<br>
+(⭐ajuste em :<br>
 Adicionar cores dos devidos "responsive.css" ao colors.css .<br>
 Cores ajustadas para "var()".<br>
 ✍Foi arrumado da seguinte forma:<br>
@@ -101,16 +101,40 @@ Cores sendo alteradas normalmente.<br>
 Span do "fechar" no menu hambuguer alterado (cor e formato).<br>
 Botão de alterar tema para mobile alterado para um botâo com texto.<br>
 Função gerada para alterar o tema de forma consistente com o themeBtn.<br>
-Coloração do "footer" alterado no modo dark. 
+Coloração do "footer" alterado no modo dark.<br>
+Imports de fontes todas colocadas em "colors.css" .<br>
+Fontes alteradas para as "var()" com as fontes.<br>
+Alterações de tema nas diversas paginas.
+(⭐ajuste em :<br>
+Alterar os font-family para "var()".<br>
+Todas os font-family foram alterados.<br>
+✍Foi arrumado da seguinte forma:<br>
+Variaveis foram criadas contendo as "fontes" e foram postas em seus respectivos locais.)
+<br><br>
+
+(⭐ajuste em :<br>
+Gerar cores para modo escuro.(está ativo porém as cores não foram alteradas). E também:<br>
+Adicionar possiveis variaveis para cores para poder fluir uma pagina mais clean!<br>
+Variaveis geradas para não haver conflito de cores durante o funcionamento da pagina.<br>
+✍Foi arrumado da seguinte forma:<br>
+Foram geradas variaveis unicamente para os elementos que compõem as paginas. Assim sendo de forma dinamica a alteração de cores juntamente com a alteração do tema.)
+<br><br>
+
+(⭐ajuste em :<br>
+Ajustar botão de alteração de temas para todos os tamanhos de tela (Responsivo)!<br>
+As alterações podem ser usado no pc precionando o botão de alterar tema, e para dispositivos moveis no menu hamburguer.<br>
+✍Foi arrumado da seguinte forma:<br>
+Com um botão de mudar tema no menu hamburguer)
+<br><br>
+
+(❌Foi excluido o ajuste:<br>
+Botão de alterar o tema não está sobrepondo completamente o "sol" na pag de menções.<br>
+✍^Foi retirado pelo motivo:<br>
+O botão para alterar o tema foi retirado do menu hambuguer, no local foi criado uma opção para selecionar o tema, da mesma forma com que altere o tema entre "light" e "dark".)
 </p>
 
 
 <h3>Avisos de ajustes para serem feitos</h3>
 <p>
-Ajustar botão de alteração de temas para todos os tamanhos de tela (Responsivo)!<br>
-Gerar cores para modo escuro.(está ativo porém as cores não foram alteradas).<br>
-Alterar os font-family para "var()".<br>
-Botão de alterar o tema não está sobrepondo completamente o "sol" na pag de menções.<br>
-👉Adicionar possiveis variaveis para cores para poder fluir uma pagina mais clean!<br>
-Mais nenhum ajuste visivel para se fazer além de por mais conteudo!
+Mais nenhum ajuste ou novidade visivel para se fazer além de por mais conteudo!<br>
 </p>

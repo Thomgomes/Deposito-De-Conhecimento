@@ -53,31 +53,21 @@
     
     .hamburguer span{
         position: absolute;
-        left: 3rem;
-        height: 2rem;
-        width: 6rem;
-        top: 0rem;
+        right: 36px;
+        height: 32px;
+        width: 96px;
+        top: -4px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: var(--ddc-color-tomato);
+        background-color: var(--ddc-color-green-blue-mid);
         color: var(--ddc-color-white);
-        border-bottom-left-radius: 11px;
-        border-top-left-radius: 11px;
-        border-bottom-right-radius: 11px;
-        border-top-right-radius: 11px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 99%;
+        border-top-right-radius: 99%;
         opacity: 0;
         transition: 0.5s;
-    }
-    
-    .hamburguer span::before{
-        content: "";
-        position: absolute;
-        border-right: .5rem solid var(--ddc-color-tomato);
-        border-top: .5rem solid transparent;
-        border-left: .5rem solid transparent;
-        border-bottom: .5rem solid transparent;
-        left: -0.95rem;
     }
     
     .show-menu .hamburguer:hover span{
@@ -110,11 +100,14 @@
     .menu-smartphone-item{
         text-align: center;
         margin-bottom: .5rem;
-    
     } 
+
+    .menu-smartphone-item.last{
+        padding-bottom: 8px;
+    }
     
     .menu-smartphone-link{
-        font-family: "Baloo Da 2", serif;
+        font-family: var(--font-family-card);
         font-size: 1.5rem;
         color: var(--ddc-color-white);
         transition: 0.5s;
