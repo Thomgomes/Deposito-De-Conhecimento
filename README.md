@@ -133,8 +133,14 @@ Botão de alterar o tema não está sobrepondo completamente o "sol" na pag de m
 O botão para alterar o tema foi retirado do menu hambuguer, no local foi criado uma opção para selecionar o tema, da mesma forma com que altere o tema entre "light" e "dark".)
 </p>
 
+<h4>30/09/2022</h4>
+<p>Um if ternario adicionado no events-all-pages apra quando o checked estiver ativo deixar no dark mode.<br>
+Checked ajustado para todas as paginas iniciarem no dark mode.
+</p>
 
-<h3>Avisos de ajustes para serem feitos</h3>
+
+<h3>Avisos de ajustes ou novidades à serem feitos</h3>
 <p>
-Mais nenhum ajuste ou novidade visivel para se fazer além de por mais conteudo!<br>
+Adicionar uma pasta "modules" para compor os cards e seperar o codigo.<br>
+Mais nenhum ajuste ou novidade visivel para se fazer além de por mais conteudo!
 </p>

@@ -7,6 +7,12 @@ themeColor.addEventListener('change', function () {
 })
 
 
+themeColor.checked ? $html.classList.add('dark-mode') : $html.classList.remove('dark-mode')
+// if(themeColor.checked){
+//     $html.classList.add('dark-mode')
+// }else{}
+
+
 //menu hamburguer e função para mudar tema no menu hamburguer
 let hamburguer = document.querySelector(".hamburguer")
 const themeColorOption = document.getElementById('option-theme')
@@ -15,7 +21,6 @@ const themeIcon = document.getElementById('option-theme-icon')
 hamburguer.addEventListener("click", function () {
     document.querySelector(".navbar").classList.toggle("show-menu")
 });
-
 
 themeColorOption.addEventListener('click', function () {
     $html.classList.toggle('dark-mode')
@@ -29,6 +34,4 @@ themeColorOption.addEventListener('click', function () {
         themeColorOption.innerText = "DarkMode:On"
         themeIcon.classList.add("fa-moon"); themeIcon.classList.remove("fa-sun")
     }
-
-
 })

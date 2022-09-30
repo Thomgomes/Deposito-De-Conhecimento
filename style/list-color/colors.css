@@ -62,7 +62,7 @@
 
 
 
-    --ddc-color-card: #f3f7f0;
+    --ddc-color-card: #fafdf7;
     --ddc-color-card-border: #a1fcee;
     --ddc-color-card-border-radius: #85eede;
     --ddc-color-card-border-radius-hover: #7acec1;
@@ -157,11 +157,11 @@
 
     
 
-    --ddc-color-card: #ffffff; /* alterada mas */
+    --ddc-color-card: #dedde7; /* alterada mas */
     --ddc-color-card-border: #c2b7ff; /* alterada mas */
     --ddc-color-card-border-radius: #b2a7f1; /* alterada mas */
     --ddc-color-card-border-radius-hover: #9589db; /* alterada mas */
-    --ddc-color-card-hover: #a1fcee; /* alterada mas */
+    --ddc-color-card-hover: #c2b7ff; /* alterada mas */
     
     --ddc-color-dividing-border: #9b8fdf; /* alterada mas */
 
