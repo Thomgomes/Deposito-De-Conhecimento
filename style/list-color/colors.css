@@ -70,6 +70,8 @@
     --ddc-color-card-checked-border-radius: #7acec1;
     --ddc-color-card-hover: #a1fcee;
 
+    --ddc-color-class-section-content-a-link: #07b91f;
+
     --ddc-color-code: #ebeaea;
     --ddc-color-code-copy: #009c86;
     --ddc-color-code-text: #000000;
@@ -118,6 +120,8 @@
     --ddc-color-card-hover: #c2b7ff; /* alterada mas */
     
     --ddc-color-dividing-border: #9b8fdf; /* alterada mas */
+
+    --ddc-color-class-section-content-a-link: #df80df;
 
     --ddc-color-code: #ebeaea;
     --ddc-color-code-copy: #b2a7f1; /* alterada mas */

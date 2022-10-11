@@ -482,6 +482,10 @@ section h2 {
     border: 1px solid rgb(255, 166, 166);
 } */
 
+.section-content-a-link {
+    color: var(--ddc-color-class-section-content-a-link)
+}
+
 .information {
     display: flex;
     flex-flow: row wrap;

@@ -144,9 +144,9 @@ cardHtml.addEventListener("click", function () {
                 Sendo
                 assim ele é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo
                 pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. Outras
-                tecnologias além do HTML geralmente são usadas para descrever a aparência <a onclick="SoftScroll(event)"
+                tecnologias além do HTML geralmente são usadas para descrever a aparência <a class="section-content-a-link" onclick="SoftScroll(event)"
                     href="#cards-section">(CSS)</a> ou a
-                funcionalidade e comportamento <a onclick="SoftScroll(event)" href="#cards-section"
+                funcionalidade e comportamento <a class="section-content-a-link" onclick="SoftScroll(event)" href="#cards-section"
                     id="js-link">(JavaScript)</a> de uma página da web.
             </p>
             <p><strong>"HiperTexto"</strong> refere-se aos links que conectam páginas da Web entre si, seja dentro de um
@@ -218,7 +218,11 @@ cardHtml.addEventListener("click", function () {
                 <h5>Document Object Model</h5>
                 <h5>(Modelo de Objeto de Documentos)</h5>
                 <p>
-                    É uma <strong>API</strong> definida pelo <strong><a href="https://www.w3c.br/"
+                    O DOM será mais explorado no card de
+                    <a class="section-content-a-link" onclick="SoftScroll(event)" href="#cards-section" id="js-link">JavaScript</a>
+                </p>
+                <p>
+                    É uma <strong>API</strong> definida pelo <strong><a class="section-content-a-link" href="https://www.w3c.br/"
                             target="_blank">W3C</a></strong> para representar e interagir com qualquer
                     documento HTML.
                 </p>
@@ -231,7 +235,7 @@ cardHtml.addEventListener("click", function () {
                     disparados quando
                     um dado evento ocorrer.<br>Você pode ver mais sobre <strong>DOM</strong> e
                     <strong>APIs</strong> no card de
-                    <a onclick="SoftScroll(event)" href="#cards-section" id="js-link">JavaScript</a>
+                    <a class="section-content-a-link" onclick="SoftScroll(event)" href="#cards-section" id="js-link">JavaScript</a>
                 </p>
 
             </div>
