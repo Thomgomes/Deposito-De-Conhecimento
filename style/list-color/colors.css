@@ -86,6 +86,10 @@
     --ddc-color-menu-itens-aside-hover: #ffffff;
     --ddc-color-menu-theme: #111111;
 
+    --ddc-color-menu-hamburguer-background: #085a50b7;
+    --ddc-color-menu-hamburguer-span: #009c86;
+    --ddc-color-menu-hamburguer-text: #fafafa;
+
     --ddc-color-footer-1: #009c86;
     --ddc-color-footer-2: #085a50;
     --ddc-color-footer-3: #000000;
@@ -128,6 +132,9 @@
     --ddc-color-menu-itens-hover: #ffffff; /* alterada mas */
     --ddc-color-menu-itens-aside-hover: #ffffff; 
     --ddc-color-menu-theme: #5c4477; /* alterada mas */
+
+    --ddc-color-menu-hamburguer-background: #b2a7f1b7;
+    --ddc-color-menu-hamburguer-span: #6553ca;
 
     --ddc-color-footer-1: #563af8; /* alterada mas */
     --ddc-color-footer-2: #4b3ba7; /* alterada mas */

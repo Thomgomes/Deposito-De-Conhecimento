@@ -60,8 +60,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: var(--ddc-color-green-blue-mid);
-        color: var(--ddc-color-white);
+        background-color: var(--ddc-color-menu-hamburguer-span);
+        color: var(--ddc-color-menu-hamburguer-text);
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
         border-bottom-right-radius: 99%;
@@ -80,7 +80,7 @@
         width: 18rem;
         height: 36%;
         border-bottom-left-radius: 15px;
-        background-color: var(--ddc-color-blue-grey-blur-72porcent);
+        background-color: var(--ddc-color-menu-hamburguer-background);
         position: fixed;
         top: 0;
         right: -20rem;
