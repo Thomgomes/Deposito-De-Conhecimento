@@ -61,6 +61,8 @@
     --ddc-color-text-white: #ffffff;
 
 
+    --ddc-color-btn-a-page: #385a64; /* alterada mas */
+    --ddc-color-btn-a-page-hover: #009c86; /* alterada mas */
 
     --ddc-color-card: #fafdf7;
     --ddc-color-card-border: #a1fcee;
@@ -110,7 +112,9 @@
     --ddc-color-text-white: #ffffff;
 
     
-
+    --ddc-color-btn-a-page: #6553ca; /* alterada mas */
+    --ddc-color-btn-a-page-hover: #7a69db; /* alterada mas */
+    
     --ddc-color-card: #dedde7; /* alterada mas */
     --ddc-color-card-border: #c2b7ff; /* alterada mas */
     --ddc-color-card-border-radius: #b2a7f1; /* alterada mas */

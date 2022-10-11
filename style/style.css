@@ -603,6 +603,21 @@ section h2 {
     display: none;
 }
 
+.btn-a-page{
+    background: var(--ddc-color-btn-a-page);
+    padding: 8px;
+    color: var(--ddc-color-menu-button-text);
+    text-align: center;
+    border-radius: 5px;
+    max-width: 110px;
+    transition: all ease .3s;
+}
+
+.btn-a-page:hover {
+    border: none;
+    background: var(--ddc-color-btn-a-page-hover);
+}
+
 .information-content h5 {
     margin: 0;
 }

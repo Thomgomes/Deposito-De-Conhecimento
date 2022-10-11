@@ -238,6 +238,8 @@ cardHtml.addEventListener("click", function () {
                     <a class="section-content-a-link" onclick="SoftScroll(event)" href="#cards-section" id="js-link">JavaScript</a>
                 </p>
 
+                <h4 class=" information-itens">Clique a baixo para acessar a pagina com todo o conteúdo de Html</h4>
+                <a class="btn-a-page" href="./html_page.html">HTML Page</a>
             </div>
             <div class="aside-content">
                 <aside class="aside-section">
