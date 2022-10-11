@@ -6,8 +6,8 @@
     <a href="#tecnologias">Tecnologias</a>
     --
     <a href="#autor">Autor</a>
-    --
-    <a href="#atualizações">Atualizações</a>
+    <!-- --
+    <a href="#atualizações">Atualizações</a> -->
 </p>
 
 <br>
@@ -33,7 +33,7 @@ Prentendo adicionar novas funcionalidades e atribuir novos conteudos com o passa
 Estou estudando para ser um "Front-end Developer", sou formado em Técnico em Analíse e Desenvolvimento de Sistemas no ETE Gínasio Pernambucano - Recife - PE.
 </p>
 
-# Atualizações
+<!-- # Atualizações
 
 <h4>14/09/2022</h4>
 <p>Index atualizado com o conteudo inicial.<br>
@@ -143,4 +143,4 @@ Checked ajustado para todas as paginas iniciarem no dark mode.
 <p>
 Adicionar uma pasta "modules" para compor os cards e seperar o codigo.<br>
 Mais nenhum ajuste ou novidade visivel para se fazer além de por mais conteudo!
-</p>
+</p> -->

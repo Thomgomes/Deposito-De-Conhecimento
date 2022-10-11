@@ -35,7 +35,7 @@ body {
 
 .logo h1 {
     font-family: var(--font-family-title);
-    font-size: 34px;
+    font-size: 32px;
     margin: 0;
     margin-top: 18px;
     margin-bottom: 5px;
@@ -109,7 +109,7 @@ body {
 .menu a {
     color: var(--ddc-color-menu-itens);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     padding: 20px 16px;
     transition: all ease 0.3s;
 }
@@ -189,7 +189,7 @@ body {
 
 .headline h2 {
     font-weight: 900;
-    font-size: 25px;
+    font-size: 24px;
     font-family: var(--font-family-title);
     color: var(--ddc-color-title);
     padding: 0;
@@ -216,7 +216,7 @@ body {
 .mencion-list a, li {
     text-decoration: none;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 16px;
     color: var(--ddc-color-title);
     letter-spacing: 2px;
     padding-bottom: 10px;
@@ -265,7 +265,7 @@ footer {
 .agencia {
     font-family: var(--font-family-title);
     color: var(--ddc-color-text-white);
-    font-size: 34px;
+    font-size: 32px;
 }
 
 .logo-rodape p {
@@ -274,7 +274,7 @@ footer {
 
 .logo-rodape a {
     color: var(--ddc-color-text-white);
-    font-size: 30px;
+    font-size: 32px;
 }
 
 

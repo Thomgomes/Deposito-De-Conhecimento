@@ -46,7 +46,7 @@ body {
 
 .logo h1 {
     font-family: var(--font-family-title);
-    font-size: 34px;
+    font-size: 32px;
     margin: 0;
     margin-top: 18px;
     margin-bottom: 5px;
@@ -118,7 +118,7 @@ body {
 .menu a {
     color: var(--ddc-color-menu-itens);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     padding: 20px 16px;
     transition: all linear 0.2s;
 }
@@ -172,7 +172,7 @@ body {
 
 .headline h2 {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 32px;
     font-family: var(--font-family-title);
     color: var(--ddc-color-title);
     padding: 0;
@@ -185,7 +185,7 @@ body {
 
 .headline h3 {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 32px;
     font-family: var(--font-family-title);
     color: var(--ddc-color-title);
     padding: 0;
@@ -268,7 +268,7 @@ section {
 
 section h2 {
     width: 100%;
-    font-size: 45px;
+    font-size: 32px;
     margin: 0;
     font-family: var(--font-family-title);
     font-weight: bold;
@@ -345,9 +345,9 @@ section h2 {
 }
 
 .card.checked {
-    background: var(--ddc-color-soft-blue-2);
+    background: var(--ddc-color-card-checked);
     padding: 30px;
-    box-shadow: 2.8px 3.6px var(--ddc-color-soft-blue-3);
+    box-shadow: 2.8px 3.6px var(--ddc-color-card-checked-border-radius);
 }
 
 .card-loading {
@@ -407,7 +407,7 @@ section h2 {
 
 .loading span {
     color: var(--ddc-color-soft-grey-in-red);
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 200px;
@@ -468,7 +468,7 @@ section h2 {
 }
 
 .title-subtitle h2 {
-    font-size: 45px;
+    font-size: 32px;
     font-family: var(--font-family-title);
 }
 
@@ -499,7 +499,7 @@ section h2 {
 }
 
 .information-content h4 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 16px
 }
 
@@ -577,7 +577,7 @@ section h2 {
     align-items: center;
     background-color: var(--ddc-color-code-copy);
     color: var(--ddc-color-text-white);
-    font-size: 14px;
+    font-size: 16px;
     border-bottom-left-radius: 11px;
     border-top-left-radius: 11px;
     border-bottom-right-radius: 11px;
@@ -639,7 +639,7 @@ section h2 {
     width: 75%;
     margin-top: 10px;
     padding: 6px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     background: transparent;
     border-right: 1px solid var(--ddc-color-title);
@@ -705,7 +705,7 @@ footer {
 .agencia {
     font-family: var(--font-family-title);
     color: var(--ddc-color-text-white);
-    font-size: 34px;
+    font-size: 32px;
 }
 
 .logo-rodape p {
